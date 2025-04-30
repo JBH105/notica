@@ -1,3 +1,13 @@
+/* logo  */
+
+#_desktop_logo{
+  height: 70px;
+  width: 150px;
+  right: 60px;
+}
+
+
+
 /* General container styling */
 .block_slide {
   width: 100%;
@@ -175,229 +185,6 @@
   }
 }
 
-/* roi css start here */
-:root {
-  --primary-color: #4361ee;
-  --secondary-color: #3f37c9;
-  --accent-color: #4895ef;
-  --success-color: #4cc9f0;
-  --revenue-color: #38b000;
-  --expenses-color: #f72585;
-  --profit-color: #2ec4b6;
-  --text-dark: #2b2d42;
-  --text-medium: #4a4e69;
-  --text-light: #8e9aaf;
-  --bg-light: #f8f9fa;
-  --card-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
-  --border-radius: 12px;
-}
-
-.roi-section {
-  padding: 2rem 1rem;
-  background: linear-gradient(135deg, #f5f7fa 0%, #e4e8f0 100%);
-  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
-  min-height: 100vh;
-  display: flex;
-  align-items: center;
-}
-
-.roi-container {
-  max-width: 1200px;
-  margin: 0 auto;
-  width: 100%;
-}
-
-.roi-header {
-  text-align: center;
-  margin-bottom: 3rem;
-  padding: 0 1rem;
-}
-
-.roi-main-title {
-  font-size: 2rem;
-  font-weight: 700;
-  color: var(--text-dark);
-  margin-bottom: 1rem;
-  position: relative;
-  display: inline-block;
-}
-
-.roi-main-title::after {
-  content: '';
-  position: absolute;
-  bottom: -8px;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 80px;
-  height: 4px;
-  background: var(--accent-color);
-  border-radius: 2px;
-}
-
-.roi-subtitle {
-  font-size: 1rem;
-  line-height: 1.6;
-  color: var(--text-medium);
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 1rem;
-  background: white;
-  border-radius: var(--border-radius);
-  box-shadow: var(--card-shadow);
-  border-left: 4px solid var(--accent-color);
-}
-
-.roi-cards-container {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 2rem;
-  margin-bottom: 2rem;
-  padding: 0 1rem;
-}
-
-.roi-card {
-  background: white;
-  border-radius: var(--border-radius);
-  box-shadow: var(--card-shadow);
-  padding: 1.5rem;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.roi-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 15px 20px -5px rgba(0, 0, 0, 0.1);
-}
-
-.card-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 1.5rem;
-  padding-bottom: 0.75rem;
-  border-bottom: 2px solid #f0f0f0;
-}
-
-.card-title {
-  font-size: 1.25rem;
-  font-weight: 600;
-  color: var(--text-dark);
-  margin: 0;
-}
-
-.card-icon {
-  font-size: 1.5rem;
-  width: 40px;
-  height: 40px;
-  background: #f0f8ff;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.revenue-card .card-icon {
-  color: var(--revenue-color);
-  background: rgba(56, 176, 0, 0.1);
-}
-
-.expenses-card .card-icon {
-  color: var(--expenses-color);
-  background: rgba(247, 37, 133, 0.1);
-}
-
-.card-body {
-  display: flex;
-  flex-direction: column;
-  gap: 0.75rem;
-}
-
-.data-row {
-  display: flex;
-  justify-content: space-between;
-  padding: 0.5rem 0;
-  border-bottom: 1px dashed #eee;
-}
-
-.data-row:last-child {
-  border-bottom: none;
-}
-
-.data-label {
-  font-weight: 500;
-  color: var(--text-medium);
-}
-
-.data-value {
-  font-weight: 600;
-  color: var(--text-dark);
-  text-align: right;
-}
-
-.highlight {
-  color: var(--revenue-color);
-}
-
-.total-expenses .data-value {
-  color: var(--expenses-color);
-}
-
-.profit-row {
-  margin-top: 1rem;
-  padding-top: 1rem;
-  border-top: 2px solid #eee;
-}
-
-.profit-value {
-  color: var(--profit-color);
-  font-size: 1.1rem;
-}
-
-.roi-footer {
-  text-align: center;
-  padding: 0 1rem;
-}
-
-.disclaimer {
-  font-size: 0.85rem;
-  color: var(--text-light);
-  font-style: italic;
-}
-
-/* Responsive Adjustments */
-@media (max-width: 768px) {
-  .roi-main-title {
-    font-size: 1.75rem;
-  }
-
-  .roi-subtitle {
-    font-size: 0.95rem;
-  }
-
-  .roi-cards-container {
-    grid-template-columns: 1fr;
-  }
-}
-
-@media (max-width: 480px) {
-  .roi-main-title {
-    font-size: 1.5rem;
-  }
-
-  .card-title {
-    font-size: 1.1rem;
-  }
-
-  .data-label,
-  .data-value {
-    font-size: 0.9rem;
-  }
-
-  .profit-value {
-    font-size: 1rem;
-  }
-}
-
-/* roi css end here */
 
 /* about css start */
 .about-section {
@@ -412,9 +199,10 @@
 .about-section h1 {
   text-align: center;
   font-size: 3rem;
-  background: linear-gradient(to right, #007a4a, #00aaff);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  /* background: linear-gradient(to right, #007a4a, #00aaff); */
+  /* -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; */
+  color: #007a4a;
   margin-bottom: 50px;
   font-weight: 800;
 }
@@ -480,37 +268,57 @@
   font-size: 0.9rem;
 }
 
+
 .certifications {
-  margin-top: 60px;
   text-align: center;
+  padding: 1rem;
 }
 
 .certifications h2 {
-  font-size: 1.8rem;
-  color: #007a4a;
-  margin-bottom: 30px;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
 }
 
 .certification-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 1.5rem;
+  align-items: center;
+  justify-items: center;
+}
+
+.certification-item {
+  width: 100%;
+  max-width: 180px;
+  height: 140px; /* Fixed height for uniformity */
   display: flex;
+  align-items: center;
   justify-content: center;
-  gap: 30px;
-  flex-wrap: wrap;
+  background: #fff;
+  /* border: 1px solid #ddd; */
+  border-radius: 8px;
+  padding: 0.25rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
 }
 
 .certification-item img {
-  width: 180px;
-  height: 100px;
-  object-fit: cover;
-  border-radius: 12px;
-  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  max-height: 100%;
+  max-width: 100%;
+  object-fit: contain;
 }
 
-.certification-item img:hover {
-  transform: scale(1.08);
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12);
+@media (max-width: 600px) {
+  .certifications h2 {
+    font-size: 1.5rem;
+  }
+
+  .certification-item {
+    height: 100px;
+    max-width: 140px;
+    padding: 0.5rem;
+  }
 }
+
 
 /* Responsive */
 @media (max-width: 991px) {
@@ -536,9 +344,841 @@
   .about-section h1 {
     font-size: 2rem;
   }
+}
 
-  .certification-item img {
-    width: 150px;
-    height: 90px;
+
+
+/*  recreated Roi section css  */
+
+/* Hero section */
+.hero {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.hero h1 {
+  color: #000000;
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 20px;
+  max-width: 800px;
+  margin: 0 auto 30px;
+}
+
+.button {
+  display: inline-block;
+  background-color: #ff6600;
+  color: white;
+  font-weight: bold;
+  padding: 14px 28px;
+  border-radius: 50px;
+  text-decoration: none;
+  font-size: 18px;
+  transition: all 0.3s ease;
+  border: none;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #e55c00;
+  transform: scale(1.05);
+}
+
+/* first roi section
+ [50-60% Average Profit Margin] */
+
+.ROI-section {
+  position: relative;
+  margin: 40px auto;
+  max-width: 1000px;
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+}
+
+.container {
+  padding: 0;
+}
+
+.roi-content {
+  display: flex;
+  align-items: stretch;
+  min-height: 450px;
+}
+
+/* Image column styles */
+.image-column {
+  width: 40%;
+  position: relative;
+  overflow: hidden;
+}
+
+.food-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  transition: transform 0.5s ease;
+}
+
+.image-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to bottom, rgba(76, 175, 80, 0.2), rgba(46, 125, 50, 0.3));
+  transition: opacity 0.3s ease;
+}
+
+.image-column:hover .food-image {
+  transform: scale(1.05);
+}
+
+.image-column:hover .image-overlay {
+  opacity: 0.8;
+}
+
+/* Text column styles */
+.text-column {
+  width: 60%;
+  padding: 48px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  text-align: left;
+  background: #fafafa;
+}
+
+.roi-title {
+  font-size: 2.8rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: #1a1a1a;
+  line-height: 1.2;
+  margin-bottom: 24px;
+  letter-spacing: -0.5px;
+}
+
+.percentage h3 {
+  font-size: 4.5rem;
+  font-weight: 900;
+  color: #2E7D32;
+  line-height: 1;
+  margin-bottom: 16px;
+  animation: fadeInUp 0.8s ease-out forwards;
+}
+
+.profit-margin h4 {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #4CAF50;
+  margin-bottom: 24px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.description p {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #555;
+  line-height: 1.6;
+  max-width: 85%;
+  margin-bottom: 24px;
+}
+
+.timeline p {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #333;
+}
+
+.timeline strong {
+  color: #2E7D32;
+  font-weight: 700;
+}
+
+/* Bottom bar styles */
+.bottom-bar {
+  background: linear-gradient(to right, #4CAF50, #2E7D32);
+  color: #fff;
+  padding: 12px 0;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+/* Animations */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
   }
 }
+
+.text-column > * {
+  animation: fadeInUp 0.8s ease-out forwards;
+  animation-delay: calc(0.1s * var(--animation-order));
+}
+
+.roi-title { --animation-order: 1; }
+.percentage { --animation-order: 2; }
+.profit-margin { --animation-order: 3; }
+.description { --animation-order: 4; }
+.timeline { --animation-order: 5; }
+
+/* Hover effects */
+.percentage h3:hover {
+  transform: scale(1.03);
+  transition: transform 0.3s ease;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 992px) {
+  .roi-title {
+    font-size: 2.4rem;
+  }
+  
+  .percentage h3 {
+    font-size: 4rem;
+  }
+  
+  .profit-margin h4 {
+    font-size: 1.3rem;
+  }
+  
+  .description p {
+    max-width: 90%;
+  }
+}
+
+@media (max-width: 768px) {
+  .roi-content {
+    flex-direction: column;
+    min-height: auto;
+  }
+  
+  .image-column {
+    width: 100%;
+    height: 250px;
+  }
+  
+  .text-column {
+    width: 100%;
+    padding: 32px 24px;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .roi-title {
+    font-size: 2.2rem;
+  }
+  
+  .percentage h3 {
+    font-size: 3.5rem;
+  }
+  
+  .description p {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 576px) {
+  .ROI-section {
+    margin: 20px;
+    border-radius: 8px;
+  }
+  
+  .text-column {
+    padding: 24px 16px;
+  }
+  
+  .roi-title {
+    font-size: 1.8rem;
+  }
+  
+  .percentage h3 {
+    font-size: 3rem;
+  }
+  
+  .profit-margin h4 {
+    font-size: 1.2rem;
+  }
+  
+  .description p, .timeline p {
+    font-size: 0.95rem;
+  }
+  
+  .bottom-bar {
+    padding: 10px 0;
+    font-size: 0.9rem;
+  }
+}
+
+
+/* ================= end here first roi section ===================*/
+
+
+/* ===================== ROI Projection section star here ================*/
+
+.roi-section {
+  padding: 40px 20px 60px;
+  width: 100%;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.roi-card {
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.roi-header {
+  background: linear-gradient(to right, #2E7D32, #4CAF50);
+  color: white;
+  padding: 20px;
+}
+
+.roi-header h2 {
+  font-size: 24px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.projection-desc {
+  padding: 20px;
+  border-bottom: 1px solid #eee;
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.projection-desc .icon {
+  color: #2e7d32;
+  font-size: 20px;
+}
+
+.table-container {
+  padding: 20px;
+  overflow-x: auto;
+}
+
+.revenue-header, .expenses-header {
+  background-color: #2E7D32;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  font-weight: 600;
+  border-radius: 6px 6px 0 0;
+  margin-bottom: 2px;
+}
+
+.expenses-header {
+  background-color: #666;
+  margin-top: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th {
+  background-color: #444;
+  color: white;
+  text-align: left;
+  padding: 12px;
+}
+
+td {
+  padding: 12px;
+  border-bottom: 1px solid #eee;
+}
+
+tr td:first-child {
+  background-color: #eee;
+}
+
+tr td:not(:first-child) {
+  background-color: #f8f8f8;
+  text-align: center;
+}
+
+.total-row td {
+  background-color: #444 !important;
+  color: white;
+  font-weight: bold;
+}
+
+.net-profit-row td {
+  background-color: #2e7d32 !important;
+  color: white;
+  font-weight: bold;
+}
+
+.disclaimer {
+  padding: 20px;
+  background-color: #f9f9f9;
+  display: flex;
+  gap: 10px;
+}
+
+.disclaimer-content {
+  font-size: 14px;
+  color: #666;
+}
+
+.disclaimer-title {
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+
+.cta-section {
+  padding: 60px 20px;
+  background-color: white;
+  text-align: center;
+}
+
+.cta-section h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.cta-section p {
+  font-size: 18px;
+  max-width: 800px;
+  margin: 0 auto 30px;
+  color: #666;
+}
+
+.button-group {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.secondary-button {
+  display: inline-block;
+  background-color: #eee;
+  color: #333;
+  font-weight: bold;
+  padding: 14px 28px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 18px;
+  transition: all 0.3s ease;
+}
+
+.secondary-button:hover {
+  background-color: #ddd;
+}
+
+@media (max-width: 768px) {
+  .hero h1 {
+      font-size: 36px;
+  }
+
+  .hero p {
+      font-size: 18px;
+  }
+
+  .roi-header h2 {
+      font-size: 20px;
+  }
+
+  .button, .secondary-button {
+      font-size: 16px;
+      padding: 12px 24px;
+  }
+
+
+
+@keyframes slide-mobile {
+  0% { transform: translateX(0); }
+  18% { transform: translateX(0); }
+  20% { transform: translateX(-20%); }
+  38% { transform: translateX(-20%); }
+  40% { transform: translateX(-40%); }
+  58% { transform: translateX(-40%); }
+  60% { transform: translateX(-60%); }
+  78% { transform: translateX(-60%); }
+  80% { transform: translateX(-80%); }
+  98% { transform: translateX(-80%); }
+  100% { transform: translateX(0); }
+}
+
+
+  .cta-section h2 {
+      font-size: 28px;
+  }
+
+  .cta-section p {
+      font-size: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero h1 {
+      font-size: 30px;
+  }
+
+  .hero p {
+      font-size: 16px;
+  }
+
+  th, td {
+      padding: 8px;
+      font-size: 14px;
+  }
+
+  .button-group {
+      flex-direction: column;
+  }
+
+}
+
+/* ======================================== Recreated Franchise kit section ================== */
+
+.carousel-container {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.carousel-track {
+  display: flex;
+  animation: scrollLoop 12s linear infinite;
+}
+
+@keyframes scrollLoop {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+/* Item styles */
+.franchise-item {
+  flex: 0 0 auto;
+  width: 300px;
+  margin: 0 15px;
+  border: 1px solid #eee;
+  border-radius: 10px;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+  text-align: center;
+}
+
+.franchise-item img {
+  width: 100%;
+  height: 180px;
+  object-fit: contain;
+  background-color: #f9f9f9;
+}
+
+.franchise-item .title {
+  padding: 10px;
+  font-weight: bold;
+  background-color: #f5f5f5;
+}
+
+/* Responsive tweak */
+@media (max-width: 768px) {
+  .carousel-track {
+    animation-duration: 12s;
+  }
+
+  .franchise-item {
+    width: 220px;
+    margin: 0 10px;
+  }
+}
+
+
+/* Terms and condition css start here */
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.franchise-section {
+  padding: 60px 0;
+  background: linear-gradient(to bottom, #ffffff, #f9f9f9);
+  position: relative;
+  overflow: hidden;
+  margin-top: 50px;
+}
+
+.franchise-section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 5px;
+  background: linear-gradient(90deg, #28a745, #4caf50);
+}
+
+/* Offer header styles */
+.offer-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.heading {
+  font-size: 2.5rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: #070707;
+  line-height: 1.2;
+  letter-spacing: 1px;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.1);
+}
+
+/* Pricing styles */
+.pricing {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.original-price {
+  margin-bottom: 10px;
+}
+
+.strikethrough {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #28a745;
+  text-decoration: line-through;
+  opacity: 0.7;
+}
+
+.discounted-price {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+}
+
+.rupee-symbol {
+  font-size: 3.5rem;
+  font-weight: 700;
+  color: #28a745;
+  margin-right: 8px;
+}
+
+.price {
+  font-size: 5rem;
+  font-weight: 800;
+  color: #28a745;
+  line-height: 1;
+  letter-spacing: -1px;
+}
+
+.asterisk {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #28a745;
+  vertical-align: super;
+}
+
+/* Helpline styles */
+.helpline {
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 40px;
+}
+
+.phone-number {
+  font-weight: 700;
+}
+
+/* ----- Terms & Conditions styles start here ------  */
+.terms-section {
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+  padding: 30px;
+  max-width: 900px;
+  margin: 0 auto;
+  border-top: 4px solid #28a745;
+}
+
+.terms-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #333;
+  position: relative;
+  padding-bottom: 10px;
+}
+
+.terms-title::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 60px;
+  height: 3px;
+  background: linear-gradient(90deg, #28a745, #4caf50);
+}
+
+.terms-list {
+  list-style: none;
+}
+
+.terms-list li {
+  position: relative;
+  padding-left: 22px;
+  margin-bottom: 12px;
+  font-size: 0.95rem;
+}
+
+.terms-list li::before {
+  content: '•';
+  position: absolute;
+  left: 0;
+  color: #28a745;
+  font-size: 1.2rem;
+}
+
+/* Hover effects */
+.phone-number:hover {
+  color: #28a745;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+/* Animation */
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.05); }
+  100% { transform: scale(1); }
+}
+
+.discounted-price {
+  animation: pulse 2s infinite;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 992px) {
+  .heading {
+    font-size: 2.2rem;
+  }
+  
+  .price {
+    font-size: 4.5rem;
+  }
+  
+  .rupee-symbol {
+    font-size: 3rem;
+  }
+  
+  .asterisk {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .heading {
+    font-size: 2rem;
+  }
+  
+  .price {
+    font-size: 4rem;
+  }
+  
+  .rupee-symbol {
+    font-size: 2.5rem;
+  }
+  
+  .terms-section {
+    padding: 25px;
+  }
+}
+
+@media (max-width: 576px) {
+  .franchise-section {
+    padding: 40px 0;
+  }
+  
+  .heading {
+    font-size: 1.5rem;
+  }
+  
+  .original-price .strikethrough {
+    font-size: 1.5rem;
+  }
+  
+  .price {
+    font-size: 3.5rem;
+  }
+  
+  .rupee-symbol {
+    font-size: 2rem;
+  }
+  
+  .asterisk {
+    font-size: 1.5rem;
+  }
+  
+  .helpline {
+    font-size: 1rem;
+  }
+  
+  .terms-title {
+    font-size: 1.3rem;
+  }
+  
+  .terms-list li {
+    font-size: 0.9rem;
+  }
+  
+  .terms-section {
+    padding: 20px;
+    border-radius: 8px;
+  }
+}
+
+@media (max-width: 400px) {
+  .heading {
+    font-size: 1.3rem;
+  }
+  
+  .price {
+    font-size: 3rem;
+  }
+  
+  .terms-list li {
+    font-size: 0.85rem;
+  }
+}
+
+/* Terms and con end here */
