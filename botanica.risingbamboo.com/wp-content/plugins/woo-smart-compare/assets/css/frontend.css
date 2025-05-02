@@ -1157,11 +1157,6 @@ body.woocommerce-cart .woosc-hide-checkout, body.woocommerce-checkout .woosc-hid
     display: none;
 }
 
-.woosc_list {
-    max-width: 100%;
-    overflow-x: auto;
-}
-
 .woosc_table table tr th, .woosc_table table tr td {
     left: auto !important;
     right: auto !important;
@@ -1496,10 +1491,6 @@ body.woocommerce-cart .woosc-hide-checkout, body.woocommerce-checkout .woosc-hid
 }
 
 /* Quick Table */
-.woosc-quick-table .woosc-quick-table-products {
-    width: 100%;
-    overflow-x: auto;
-}
 
 .woosc-quick-table .woosc_table thead .woosc-remove, .woosc-quick-table .woosc_table thead .woosc-table-settings {
     display: none;

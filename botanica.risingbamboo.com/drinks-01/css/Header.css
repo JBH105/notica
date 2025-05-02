@@ -1,0 +1,154 @@
+
+/* Header css start here */
+
+
+.rbb-default-header {
+    width: 100%;
+    position: absolute;
+    z-index: 20;
+  }
+  
+  .desktop-header {
+    display: block;
+    /* background-color: #f8f8f8; */
+  }
+  
+  .header-inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 60px;
+    padding: 0 20px;
+  }
+  
+  .header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+  }
+  
+  .rbb-header-left {
+    display: flex;
+    align-items: center;
+  }
+  
+  .social-links {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+  }
+  
+  .social-link {
+    color: #ffffff;
+    background-color: #fff;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .social-link a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .social-link svg {
+    width: 20px;
+    height: 20px;
+  }
+  
+  .rbb-header-center {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .primary-menu {
+    height: 100%;
+  }
+  
+  .menu-container {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .menu-item {
+    position: relative;
+  }
+  
+  .menu-item a:visited{
+    color: white;
+  }
+
+  .menu-item a:hover{
+    color: #007a4a;
+  }
+  .menu-link {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 10px 15px;
+    transition: color 0.3s;
+  }
+  
+  .menu-link:hover {
+    color: #007a4a;
+    text-decoration: underline
+  }
+  
+  .rbb-header-right {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    max-height: 70px;
+    width: auto;
+  }
+  
+  .header-mobile {
+    display: none;
+    /* background-color: #f8f8f8; */
+    padding: 10px 15px;
+  }
+  
+  .mobile-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .mobile-logo .logo {
+    max-height: 90px;
+    width: auto;
+  }
+  
+  @media (max-width: 767px) {
+    .desktop-header {
+        display: none;
+    }
+  
+    .header-mobile {
+        display: block;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .header-mobile {
+        display: none;
+    }
+  }
+  
+  
+
+  /* Footer sub heading css */
+
+  .elementor-widget-container .subFooterTitle{
+    color: sienna !important;
+  }

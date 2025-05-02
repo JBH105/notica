@@ -1,0 +1,281 @@
+/* first roi section
+ [50-60% Average Profit Margin] */
+
+.ROI-section {
+  position: relative;
+  margin: 40px auto;
+  max-width: 1200px;
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+}
+
+.container {
+  /* padding: 0 !important; */
+  /* margin: 0 !important; */
+}
+
+.roi-content {
+  display: flex;
+  align-items: stretch;
+  min-height: 450px;
+}
+
+/* Image column styles */
+.image-column {
+  width: 40%;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: stretch;
+  /* justify-content: center; */
+}
+
+.food-image {
+  width: 100%;
+  height: 100vh;
+  /* max-height: 100%; */
+  object-fit: cover; 
+  object-position: center;
+  display: block;
+  transition: transform 0.5s ease;
+}
+
+.image-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to bottom, rgba(76, 175, 80, 0.2), rgba(46, 125, 50, 0.3));
+  transition: opacity 0.3s ease;
+}
+
+.image-column:hover .food-image {
+  transform: scale(1.05);
+}
+
+.image-column:hover .image-overlay {
+  opacity: 0.8;
+}
+
+/* Text column styles */
+.text-column {
+  width: 60%;
+  padding: 48px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  text-align: left;
+  background: #fafafa;
+}
+
+.roi-title {
+  font-size: 2.5rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: #1a1a1a;
+  line-height: 1.2;
+  margin-bottom: 24px;
+  letter-spacing: -0.5px;
+}
+
+.percentage h3 {
+  font-size: 3.5rem;
+  font-weight: 900;
+  color: #2E7D32;
+  line-height: 1;
+  margin-bottom: 16px;
+  animation: fadeInUp 0.8s ease-out forwards;
+}
+
+.profit-margin h4 {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #4CAF50;
+  margin-bottom: 24px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.description p {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #555;
+  line-height: 1.6;
+  max-width: 85%;
+  margin-bottom: 24px;
+}
+
+.timeline p {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #333;
+}
+
+.timeline strong {
+  color: #2E7D32;
+  font-weight: 700;
+}
+
+/* Bottom bar styles */
+.bottom-bar {
+  background: linear-gradient(to right, #4CAF50, #2E7D32);
+  color: #fff;
+  padding: 12px 0;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+/* Animations */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.text-column>* {
+  animation: fadeInUp 0.8s ease-out forwards;
+  animation-delay: calc(0.1s * var(--animation-order));
+}
+
+.roi-title {
+  --animation-order: 1;
+}
+
+.percentage {
+  --animation-order: 2;
+}
+
+.profit-margin {
+  --animation-order: 3;
+}
+
+.description {
+  --animation-order: 4;
+}
+
+.timeline {
+  --animation-order: 5;
+}
+
+/* Hover effects */
+.percentage h3:hover {
+  transform: scale(1.03);
+  transition: transform 0.3s ease;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 992px) {
+  .roi-title {
+    font-size: 2.4rem;
+  }
+
+  .percentage h3 {
+    font-size: 4rem;
+  }
+
+  .profit-margin h4 {
+    font-size: 1.3rem;
+  }
+
+  .description p {
+    max-width: 90%;
+  }
+}
+
+@media (max-width: 768px) {
+  .roi-content {
+    flex-direction: column;
+    /* min-height: auto; */
+  }
+
+  .image-column {
+    width: 100%;
+    height: auto;
+    max-height: 280px;
+  }
+  .food-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .image-wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .text-column {
+    width: 100%;
+    padding: 32px 24px;
+    align-items: center;
+    text-align: center;
+  }
+
+  .roi-title {
+    font-size: 2.2rem;
+  }
+
+  .percentage h3 {
+    font-size: 3.5rem;
+  }
+
+  .description p {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 576px) {
+  .ROI-section {
+    margin: 20px;
+    border-radius: 8px;
+  }
+
+  .text-column {
+    padding: 24px 16px;
+  }
+
+  .roi-title {
+    font-size: 1.8rem;
+  }
+
+  .percentage h3 {
+    font-size: 3rem;
+  }
+
+  .profit-margin h4 {
+    font-size: 1.2rem;
+  }
+
+  .description p,
+  .timeline p {
+    font-size: 0.95rem;
+  }
+
+  .bottom-bar {
+    padding: 10px 0;
+    font-size: 0.9rem;
+  }
+
+  .food-image {
+    object-fit: contain;
+  }
+}
+
+
+/* ================= end here first roi section ===================*/
