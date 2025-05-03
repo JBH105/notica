@@ -1,6 +1,12 @@
+franchise-setup-header{
+    margin-top: 80px;
+}
+
+
 .services-section {
     margin: 50px;
     margin-top: -20px;
+    /* margin-bottom: 30px; */
     /* background-color: green; */
 }
 
