@@ -41,7 +41,9 @@
 	<link rel="stylesheet" href="./botanica.risingbamboo.com/drinks-01/css/Booking.css">
 	<link rel="stylesheet" href="./botanica.risingbamboo.com/drinks-01/css/Hire.css ">
 	<link rel="stylesheet" href="./botanica.risingbamboo.com/drinks-01/css/productPage.css">
-	
+	<link rel="stylesheet" href="./botanica.risingbamboo.com/drinks-01/css/Vedio.css">
+	<link rel="stylesheet" href="./botanica.risingbamboo.com/drinks-01/css/mapSection.css">
+
 
 
 	<style id='global-styles-inline-css'>
@@ -371,7 +373,29 @@
 			line-height: 1.6;
 		}
 	</style>
+	<style>
+		.whatsapp-icon {
+			position: fixed;
+			bottom: 20px;
+			right: 20px;
+			background-color: #25D366;
+			border-radius: 50%;
+			width: 60px;
+			height: 60px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+			z-index: 1000;
+			cursor: pointer;
+		}
 
+		.whatsapp-icon a {
+			text-decoration: none;
+			color: #fff;
+			font-size: 32px;
+		}
+	</style>
 	<link rel='stylesheet' id='contact-form-7-css'
 		href='./botanica.risingbamboo.com/wp-content/plugins/contact-form-7/includes/css/styles.css' media='all' />
 	<link rel='stylesheet' id='rbb-icons-css'
@@ -3329,9 +3353,11 @@
 																				<div class="info-inner pl-[15px]">
 																					<h3 data-visibility-start="invisible"
 																						data-animation="fadeInLeft "
-																						class="sub-title sm:text-base md:text-xl md:mb-2 lg:text-4xl lg:mb-6 invisible">
+																						class="sub-title sm:text-base md:text-xl md:mb-2 lg:text-4xl lg:mb-6 invisible"
+																						style="color: #024a31;">
 																						THE TASTE OF LEGENDS </h3>
 																					<h2 data-visibility-start="invisible"
+																						style="color: #024a31;"
 																						data-animation="fadeInRight "
 																						class="title sm:text-base md:text-xl md:mb-1 lg:text-4xl lg:mb-4 invisible">
 																						Soda & Shake<br> Franchise </h2>
@@ -3344,7 +3370,7 @@
 																				class="!absolute																								image_1 z-50 invisible												"
 																				src="./botanica.risingbamboo.com/drinks-01/assets/mainhero.png"
 																				alt="Image Slider 1">
-																				<!-- src="./botanica.risingbamboo.com\wp-content\uploads\2024\10\juice-9-2.png" -->
+																			<!-- src="./botanica.risingbamboo.com\wp-content\uploads\2024\10\juice-9-2.png" -->
 
 																			<!-- <img data-depth="0.5"
 																				data-visibility-start="invisible"
@@ -3383,12 +3409,12 @@
 
 							<!-- add on services start here -->
 							<section class="services-section" id="services">
-								<div class="container">
+								<div class="container shop-maps-swiper-wrapper-video">
 									<div class="section-title">
 										<h2 class="main-title">Add On Services</h2>
 										<p class="sub-title">Explore Our Special Offerings</p>
 									</div>
-									<div class="swiper services-slider">
+									<div class="swiper shop-maps-swiper">
 										<div class="swiper-wrapper">
 											<!-- Slide 1 -->
 											<div class="swiper-slide">
@@ -3466,8 +3492,8 @@
 														</div>
 													</div>
 													<div class="content">
-														<h4>Counter (Marble) 
-															6- to 8 feet x I .5 feet 
+														<h4>Counter (Marble)
+															6- to 8 feet x I .5 feet
 															as per location</h4>
 														<p>Quick and easy ordering at our sleek custom-designed counter.
 														</p>
@@ -3484,10 +3510,11 @@
 														</div>
 													</div>
 													<div class="content">
-														<h4><a href="#" class="service-link">Eco vinyl 
-															stickers</a>
+														<h4><a href="#" class="service-link">Eco vinyl
+																stickers</a>
 														</h4>
-														<p>Durable, waterproof, and eco-friendly branding with style.</p>
+														<p>Durable, waterproof, and eco-friendly branding with style.
+														</p>
 													</div>
 												</div>
 											</div>
@@ -3713,10 +3740,9 @@
 												alt="FSSAI Certification">
 										</div>
 										<div class="certification-item">
-											<img
-												src="./botanica.risingbamboo.com/drinks-01/assets/About-Cert/Satyamev.png"
+											<img src="./botanica.risingbamboo.com/drinks-01/assets/About-Cert/Satyamev.png"
 												alt="satyamev jayate certification">
-												
+
 										</div>
 										<div class="certification-item">
 											<img src="./botanica.risingbamboo.com/drinks-01/assets/About-Cert/msme-logo.webp"
@@ -3734,10 +3760,10 @@
 									<div class="roi-content">
 										<div class="image-column">
 											<div class="image-wrapper">
-											<img src="https://media.istockphoto.com/id/1225230295/photo/close-up-glass-of-refreshing-cola.jpg?s=612x612&w=0&k=20&c=fC4EcutAt7j2Uc9tQkOA6cH6cg-_Tz3S4fwP2y8kqQE="
-												alt="Food ingredients display" class="food-image">
-											<div class="image-overlay"></div>
-										</div>
+												<img src="https://media.istockphoto.com/id/1225230295/photo/close-up-glass-of-refreshing-cola.jpg?s=612x612&w=0&k=20&c=fC4EcutAt7j2Uc9tQkOA6cH6cg-_Tz3S4fwP2y8kqQE="
+													alt="Food ingredients display" class="food-image">
+												<div class="image-overlay"></div>
+											</div>
 										</div>
 
 										<div class="text-column">
@@ -3934,17 +3960,18 @@
 									<div class="list">
 										<h3>Cafe Maintenance Planner</h3>
 										<p class="footer-text">
-											We Provide a comprehensive Day to Day Planner to Manage Hygiene and Systematic Staff Management as per Industry Standards
+											We Provide a comprehensive Day to Day Planner to Manage Hygiene and
+											Systematic Staff Management as per Industry Standards
 										</p>
 									</div>
 								</div>
 							</div>
-							
+
 							<!-- Hiring section end here -->
 
 
 							<!-- Terms and Condition start here -->
-							<section  id="terms" class="franchise-section">
+							<section id="terms" class="franchise-section">
 								<div class="container">
 									<div class="offer-header">
 										<h2 class="heading">APPLY NOW AND</h2>
@@ -3995,32 +4022,206 @@
 								<h2 class="section-title">Our Products</h2>
 								<div class="product-grid">
 									<div class="product-item">
-										<img src="./botanica.risingbamboo.com/drinks-01/assets/product/30-60.png" alt="Product 1" class="product-image">
+										<img src="./botanica.risingbamboo.com/drinks-01/assets/product/30-60.png"
+											alt="Product 1" class="product-image">
 										<div class="product-info">
 											<h3>30 - 60 ML</h3>
 										</div>
 									</div>
 									<div class="product-item">
-										<img src="./botanica.risingbamboo.com/drinks-01/assets/product/basket.png" alt="Product 2" class="product-image">
+										<img src="./botanica.risingbamboo.com/drinks-01/assets/product/lemonBasket.png"
+											alt="Product 2" class="product-image">
 										<div class="product-info">
 											<h3> Lemon Basket</h3>
 										</div>
 									</div>
 									<div class="product-item">
-										<img src="./botanica.risingbamboo.com/drinks-01/assets/product/Knife.jpg" alt="Product 3" class="product-image">
+										<img src="./botanica.risingbamboo.com/drinks-01/assets/product/Knife.jpg"
+											alt="Product 3" class="product-image">
 										<div class="product-info">
 											<h3> Knife </h3>
 										</div>
 									</div>
 								</div>
-								<a href="all-products.html" class="show-more-btn">Show More</a>
+								<div class="btn-wrapper">
+									<a href="all-products.html" class="show-more-btn">Show More</a>
+								</div>
 							</section>
-
-
 
 							<!-- Product page section end here -->
 
-							
+							<!-- Vedio section start here -->
+
+							<section class="video-section">
+								<h2>Our Soda Franchise Story</h2>
+								<div class="video-container shop-maps-swiper-wrapper-video">
+									<div class="shop-maps-swiper swiper">
+										<div class="swiper-wrapper">
+											<div class="swiper-slide">
+												<div class="video-card">
+													<video controls autoplay loop playsinline>
+														<source
+															src="./botanica.risingbamboo.com/drinks-01/assets/Vedios/first.mp4"
+															type="video/mp4">
+														Your browser does not support the video tag.
+													</video>
+													<p>Experience our unique soda-making process.</p>
+												</div>
+											</div>
+											<div class="swiper-slide">
+												<div class="video-card">
+													<video controls autoplay loop playsinline>
+														<source
+															src="./botanica.risingbamboo.com/drinks-01/assets/Vedios/second.mp4"
+															type="video/mp4">
+														Your browser does not support the video tag.
+													</video>
+													<p>Join our passionate franchise family.</p>
+												</div>
+											</div>
+											<div class="swiper-slide">
+												<div class="video-card">
+													<video controls autoplay loop playsinline>
+														<source
+															src="./botanica.risingbamboo.com/drinks-01/assets/Vedios/first.mp4"
+															type="video/mp4">
+														Your browser does not support the video tag.
+													</video>
+													<p>Join our passionate franchise family.</p>
+												</div>
+											</div>
+											<div class="swiper-slide">
+												<div class="video-card">
+													<video controls autoplay loop playsinline>
+														<source
+															src="./botanica.risingbamboo.com/drinks-01/assets/Vedios/second.mp4"
+															type="video/mp4">
+														Your browser does not support the video tag.
+													</video>
+													<p>Join our passionate franchise family.</p>
+												</div>
+											</div>
+											<div class="swiper-slide">
+												<div class="video-card">
+													<video controls autoplay loop playsinline>
+														<source
+															src="./botanica.risingbamboo.com/drinks-01/assets/Vedios/second.mov"
+															type="video/mp4">
+														Your browser does not support the video tag.
+													</video>
+													<p>Join our passionate franchise family.</p>
+												</div>
+											</div>
+										</div>
+										<div class="swiper-button-next shop-maps-next"></div>
+										<div class="swiper-button-prev shop-maps-prev"></div>
+										<div class="swiper-pagination shop-maps-pagination"></div>
+									</div>
+								</div>
+							</section>
+
+							<!-- Vedio section end here -->
+
+
+							<!-- map section start here -->
+
+							<div class="page-header">
+								<h1>Our Locations</h1>
+								<p>Explore our key locations with interactive maps</p>
+							</div>
+							<div class="shop-maps-swiper-wrapper">
+								<div class="shop-maps-swiper swiper">
+									<div class="swiper-wrapper">
+										<!-- Map 1: Nagpur -->
+										<div class="swiper-slide">
+											<div class="shop-map-card">
+												<div class="shop-map-info">
+													<h2>Nagpur - Jaripatka Road</h2>
+													<p>Owner: Dineshbhai</p>
+												</div>
+												<div class="shop-map-container">
+													<iframe
+														src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3720.3203525382937!2d79.08836967526075!3d21.179429280507836!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjHCsDEwJzQ2LjAiTiA3OcKwMDUnMjcuNCJF!5e0!3m2!1sen!2sin!4v1746442034192!5m2!1sen!2sin"
+														width="600" height="450" style="border:0;" allowfullscreen=""
+														loading="lazy"
+														referrerpolicy="no-referrer-when-downgrade"></iframe>
+												</div>
+											</div>
+										</div>
+										<!-- Map 2: Amravati -->
+										<div class="swiper-slide">
+											<div class="shop-map-card">
+												<div class="shop-map-info">
+													<h2>Amravati</h2>
+													<p>Owner: </p>
+												</div>
+												<div class="shop-map-container">
+													<iframe
+														src="https://maps.google.com/maps?q=20.945697784423828%2C77.76763153076172&z=17&hl=en&output=embed"
+														allowfullscreen="" loading="lazy">
+													</iframe>
+												</div>
+											</div>
+										</div>
+										<!-- Map 3: Dastur Nagar -->
+										<div class="swiper-slide">
+											<div class="shop-map-card">
+												<div class="shop-map-info">
+													<h2>Dastur Nagar Road - Jaripatka Road</h2>
+													<p>Owner: Dineshbhai</p>
+												</div>
+												<div class="shop-map-container">
+													<iframe
+														src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3720.556614722024!2d79.08197431485364!3d21.16108998592974!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjHCsDA5JzQwLjciTiA3OcKwMDUnMDIuNyJF!5e0!3m2!1sen!2sin!4v1634567890123!5m2!1sen!2sin"
+														allowfullscreen="" loading="lazy">
+													</iframe>
+												</div>
+											</div>
+										</div>
+
+										<!-- Map 3: Dastur Nagar -->
+										<div class="swiper-slide">
+											<div class="shop-map-card">
+												<div class="shop-map-info">
+													<h2>Dastur Nagar Road - Jaripatka Road</h2>
+													<p>Owner: Dineshbhai</p>
+												</div>
+												<div class="shop-map-container">
+													<iframe
+														src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3726.938620239298!2d77.75970807525347!3d20.914788980706128!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjDCsDU0JzUzLjIiTiA3N8KwNDUnNDQuMiJF!5e0!3m2!1sen!2sin!4v1746441928055!5m2!1sen!2sin"
+														width="600" height="450" style="border:0;" allowfullscreen=""
+														loading="lazy"
+														referrerpolicy="no-referrer-when-downgrade"></iframe>
+												</div>
+											</div>
+										</div>
+
+										<!-- Map 3: Dastur Nagar -->
+										<div class="swiper-slide">
+											<div class="shop-map-card">
+												<div class="shop-map-info">
+													<h2>Dastur Nagar Road - Jaripatka Road</h2>
+													<p>Owner: Dineshbhai</p>
+												</div>
+												<div class="shop-map-container">
+													<iframe
+														src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3720.556614722024!2d79.08197431485364!3d21.16108998592974!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjHCsDA5JzQwLjciTiA3OcKwMDUnMDIuNyJF!5e0!3m2!1sen!2sin!4v1634567890123!5m2!1sen!2sin"
+														allowfullscreen="" loading="lazy">
+													</iframe>
+												</div>
+											</div>
+										</div>
+									</div>
+									<!-- Swiper navigation and pagination -->
+									<div class="swiper-button-next shop-maps-next"></div>
+									<div class="swiper-button-prev shop-maps-prev"></div>
+									<div class="swiper-pagination shop-maps-pagination"></div>
+								</div>
+							</div>
+
+							<!-- map section end here -->
+
+
 							<!-- Booking detail section start here -->
 							<div class="booking-section">
 								<h2>BOOKING DETAILS</h2>
@@ -4079,7 +4280,8 @@
 											alt="Google Pay">
 									</div>
 									<div class="logo-container">
-										<img src="./botanica.risingbamboo.com/drinks-01/assets/Bank-Logos/phonepe.svg" alt="PhonePe">
+										<img src="./botanica.risingbamboo.com/drinks-01/assets/Bank-Logos/phonepe.svg"
+											alt="PhonePe">
 									</div>
 									<div class="logo-container">
 										<img src="./botanica.risingbamboo.com/drinks-01/assets/Bank-Logos/Paytm_Logo_.svg.webp"
@@ -4106,7 +4308,7 @@
 					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-31c52e12"
 						data-id="31c52e12" data-element_type="column">
 						<div class="elementor-widget-wrap elementor-element-populated">
-							
+
 							<!-- order and resturn footer-->
 							<section id="contact"
 								class="elementor-section elementor-inner-section elementor-element elementor-element-2586ceb2 footer-center elementor-section-boxed elementor-section-height-default elementor-section-height-default"
@@ -4188,6 +4390,12 @@
 
 	</script>
 
+	<!-- New swiper map script -->
+
+
+
+
+
 	<div id="woosc-area"
 		class="woosc-area woosc-bar-bottom woosc-bar-left woosc-bar-click-outside-yes woosc-hide-checkout woosc-hide-empty"
 		data-bg-color="#292a30" data-btn-color="#00a0d2">
@@ -4231,6 +4439,11 @@
 		</div>
 	</div>
 	<div id="woosw_wishlist" class="woosw-popup woosw-popup-center"></div>
+	<div class="whatsapp-icon">
+		<a href="#" id="whatsappLink" target="_blank" rel="noopener noreferrer">
+			<i class="fab fa-whatsapp"></i>
+		</a>
+	</div>
 	<script type='text/javascript'>
 		const lazyloadRunObserver = () => {
 			const lazyloadBackgrounds = document.querySelectorAll(`.e-con.e-parent:not(.e-lazyloaded)`);
@@ -4258,82 +4471,6 @@
 		});
 	</script>
 
-	<!-- <div class="rbb-account-canvas rbb-modal  backdrop-none">
-		<div class="menu-canvas-right text-center md:w-[300px] w-4/5 fixed top-0 right-0 bottom-0 p-5 bg-white z-30">
-			<header class="rbb-modal-header">
-				<button class="rbb-close-modal" aria-label="close modal" tabindex="0">✕</button>
-			</header>
-			<div class="rbb-main-navigation">
-				<div class="menu primary-menu relative">
-					<ul id="menu-account" class="menu-container divide-y divide-gray-200">
-						<li id="menu-item-5601" class="menu-item-5601 level-1"><a
-								href="https://botanica.risingbamboo.com/my-account/"
-								class="relative block py-2 text-sm whitespace-nowrap font-medium"
-								data-title="My account"><span class="menu-item-title">My account</span></a></li>
-						<li id="menu-item-8448" class="menu-item-8448 level-1"><a
-								href="https://botanica.risingbamboo.com/order-tracking/"
-								class="relative block py-2 text-sm whitespace-nowrap font-medium"
-								data-title="Order Tracking"><span class="menu-item-title">Order Tracking</span></a></li>
-						<li id="menu-item-5602" class="menu-item-5602 level-1"><a
-								href="https://botanica.risingbamboo.com/cart/"
-								class="relative block py-2 text-sm whitespace-nowrap font-medium"
-								data-title="My Cart"><span class="menu-item-title">My Cart</span></a></li>
-						<li id="menu-item-2061" class="menu-item-2061 level-1"><a
-								href="https://botanica.risingbamboo.com/checkout/"
-								class="relative block py-2 text-sm whitespace-nowrap font-medium"
-								data-title="Checkout"><span class="menu-item-title">Checkout</span></a></li>
-						<li id="menu-item-9986" class="menu-item-9986 level-1"><a
-								href="https://botanica.risingbamboo.com/wishlist"
-								class="relative block py-2 text-sm whitespace-nowrap font-medium"
-								data-title="Wishlist"><span class="menu-item-title">Wishlist</span></a></li>
-					</ul>
-					<div class="rbb-account-links border-t-[1px] border-t-[#e2e2e2] -mx-8 pt-4 flex items-center">
-						<div class="logout flex-grow text-left">
-							<a class="pl-8 group duration-300 font-bold flex leading-6"
-								href="https://botanica.risingbamboo.com/my-account">
-								Login <span
-									class="pl-[6px]  duration-300 text-base text-[color:var(--rbb-account-button-logout-icon-color)] group-hover:text-[color:var(--rbb-general-link-hover-color)] rbb-icon-account-logout-9"></span>
-							</a>
-						</div>
-					</div>
-				</div>
-			</div><div class="rbb-main-navigation">
-				<div class="menu primary-menu relative">
-					<ul id="menu-account" class="menu-container divide-y divide-gray-200">
-						<li id="menu-item-5601" class="menu-item-5601 level-1"><a
-								href="https://botanica.risingbamboo.com/my-account/"
-								class="relative block py-2 text-sm whitespace-nowrap font-medium"
-								data-title="My account"><span class="menu-item-title">My account</span></a></li>
-						<li id="menu-item-8448" class="menu-item-8448 level-1"><a
-								href="https://botanica.risingbamboo.com/order-tracking/"
-								class="relative block py-2 text-sm whitespace-nowrap font-medium"
-								data-title="Order Tracking"><span class="menu-item-title">Order Tracking</span></a></li>
-						<li id="menu-item-5602" class="menu-item-5602 level-1"><a
-								href="https://botanica.risingbamboo.com/cart/"
-								class="relative block py-2 text-sm whitespace-nowrap font-medium"
-								data-title="My Cart"><span class="menu-item-title">My Cart</span></a></li>
-						<li id="menu-item-2061" class="menu-item-2061 level-1"><a
-								href="https://botanica.risingbamboo.com/checkout/"
-								class="relative block py-2 text-sm whitespace-nowrap font-medium"
-								data-title="Checkout"><span class="menu-item-title">Checkout</span></a></li>
-						<li id="menu-item-9986" class="menu-item-9986 level-1"><a
-								href="https://botanica.risingbamboo.com/wishlist"
-								class="relative block py-2 text-sm whitespace-nowrap font-medium"
-								data-title="Wishlist"><span class="menu-item-title">Wishlist</span></a></li>
-					</ul>
-					<div class="rbb-account-links border-t-[1px] border-t-[#e2e2e2] -mx-8 pt-4 flex items-center">
-						<div class="logout flex-grow text-left">
-							<a class="pl-8 group duration-300 font-bold flex leading-6"
-								href="https://botanica.risingbamboo.com/my-account">
-								Login <span
-									class="pl-[6px]  duration-300 text-base text-[color:var(--rbb-account-button-logout-icon-color)] group-hover:text-[color:var(--rbb-general-link-hover-color)] rbb-icon-account-logout-9"></span>
-							</a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div> -->
 	<script>
 		(function () {
 			var c = document.body.className;
@@ -4341,6 +4478,18 @@
 			document.body.className = c;
 		})();
 	</script>
+
+	<!-- map-swiper start here -->
+
+	<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+	<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+		
+	</script>
+
+	<!-- map-swiper start here -->
+	<script src="./botanica.risingbamboo.com/drinks-01/js/Swiper.js"></script>
+
+	<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
 	<link rel='stylesheet' id='wc-blocks-style-css'
 		href='./botanica.risingbamboo.com/wp-content/plugins/woocommerce/assets/client/blocks/wc-blocks.css'
@@ -4382,39 +4531,6 @@
 
 	<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
-	<script>
-		const swiper = new Swiper('.services-slider', {
-			slidesPerView: 3,
-			spaceBetween: 20,
-			loop: true,
-			autoplay: {
-				delay: 3000,
-				disableOnInteraction: false,
-			},
-			navigation: {
-				nextEl: '.swiper-button-next',
-				prevEl: '.swiper-button-prev',
-			},
-			scrollbar: {
-				el: '.swiper-scrollbar',
-				draggable: true,
-			},
-			breakpoints: {
-				0: {
-					slidesPerView: 1,
-					spaceBetween: 10,
-				},
-				768: {
-					slidesPerView: 2,
-					spaceBetween: 15,
-				},
-				1200: {
-					slidesPerView: 3,
-					spaceBetween: 20,
-				},
-			},
-		});
-	</script>
 
 
 
@@ -4433,6 +4549,18 @@
 			},
 			"cached": 1
 		};
+	</script>
+	<script>
+		const phoneNumber = '+919313552392';
+		const message = 'Hi, I am interested in taking a soda franchise of your brand.Could you please share the details regarding the process and investment?Looking forward to your response.';
+		const encodedMessage = encodeURIComponent(message);
+		const whatsappUrl = `https://api.whatsapp.com/send?phone=${phoneNumber.replace('+', '')}&text=${encodedMessage}`;
+
+		const whatsappLink = document.getElementById('whatsappLink');
+		whatsappLink.addEventListener('click', (event) => {
+			event.preventDefault();
+			window.open(whatsappUrl, '_blank', 'noopener,noreferrer');
+		});
 	</script>
 	<script src="./botanica.risingbamboo.com/wp-content/plugins/contact-form-7/includes/js/index.js"
 		id="contact-form-7-js"></script>

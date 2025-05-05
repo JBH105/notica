@@ -2,7 +2,7 @@
     max-width: 1200px;
     margin: 40px auto;
     padding: 0 20px;
-    margin-bottom: 100px;
+    margin-bottom: 60px;
 }
 
 .section-title {
@@ -51,11 +51,11 @@
     font-size: 1.2rem;
     margin-bottom: 10px;
 }
-
+.btn-wrapper {
+    text-align: center; /* centers inline-block elements inside */
+}
 .show-more-btn {
-    display: block;
-    align-items: center;
-    margin: 30px auto;
+    display: inline-block;
     padding: 12px 24px;
     background-color: #4caf50;
     color: white !important;
@@ -64,9 +64,10 @@
     cursor: pointer;
     font-size: 1rem;
     text-decoration: none;
-    text-align: center;
     transition: background-color 0.3s ease;
+    margin-top: 40px;
 }
+
 
 .show-more-btn:hover {
     background-color: #388e3c;

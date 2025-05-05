@@ -18,9 +18,9 @@ body {
 }
 
 .product-section {
-    max-width: 1200px;
-    margin: 40px auto;
-    padding: 0 20px;
+    /* max-width: 1200px;
+    margin: 40px auto; */
+    padding:20px;
 }
 
 .section-title {
@@ -32,7 +32,7 @@ body {
 
 .product-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
     gap: 20px;
     justify-items: center;
 }
@@ -53,8 +53,10 @@ body {
 
 .product-image {
     width: 100%;
-    height: 280px;
-    object-fit: cover;
+    max-width: 100%;
+    height: auto;
+    aspect-ratio: 4/3;
+    object-fit: contain;
     display: block;
 }
 
@@ -78,12 +80,15 @@ body {
     margin-bottom: 10px;
 }
 
+.btn-wrapper {
+    text-align: center; /* Centers inline-block buttons */
+}
+
 .back-btn {
-    display: block;
-    margin: 30px auto;
+    display: inline-block;
     padding: 12px 24px;
     background-color: #4caf50;
-    color: white;
+    color: white !important;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -91,23 +96,25 @@ body {
     text-decoration: none;
     text-align: center;
     transition: background-color 0.3s ease;
+    margin-top: 30px;
 }
 
 .back-btn:hover {
     background-color: #388e3c;
 }
 
+
 @media (max-width: 768px) {
-    .product-grid {
+    /* .product-grid {
         grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    }
+    } */
 
     .section-title {
         font-size: 2rem;
     }
 
     .product-item {
-        max-width: 250px;
+        max-width: 100%;
     }
 }
 
@@ -117,11 +124,17 @@ body {
     }
 
     .product-item {
-        max-width: 100%;
+        width: 100%;
     }
 
     .section-title {
         font-size: 1.8rem;
+    }
+
+    .product-image {
+        width: 100%;
+        aspect-ratio: 4 / 3;
+        object-fit: contain;
     }
 }
 
@@ -430,7 +443,9 @@ body {
                 </div>
             </div>
         </div>
-        <a href="index.html" class="back-btn">Back to Home</a>
+        <div class="btn-wrapper">
+            <a href="index.html" class="back-btn">Back to Home</a>
+        </div>
     </section>
 </body>
 
