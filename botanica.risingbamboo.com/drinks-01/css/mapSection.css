@@ -2,7 +2,7 @@
     max-width: 1200px;
     width: 100%;
     margin: 0 auto 70px auto;
-    padding: 0 20px;
+    padding: 0;
 }
 
 /* Swiper container */
@@ -19,7 +19,7 @@
     overflow: hidden;
     width: 100%;
     max-width: 350px;
-    height: 350px; /* Fixed height */
+    height: 350px;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -122,11 +122,15 @@
     .shop-map-info p {
         font-size: 0.9em;
     }
+
+    .shop-maps-swiper-wrapper {
+        padding: 0;
+    }
 }
 
 @media screen and (max-width: 480px) {
     .shop-map-card {
-        max-width: 250px;
+        max-width: 360px;
         height: 280px;
     }
 
@@ -144,5 +148,13 @@
 
     .page-header p {
         font-size: 1em;
+    }
+
+    .shop-maps-swiper-wrapper {
+        padding: 0;
+    }
+
+    .container {
+        padding: 0;
     }
 }
