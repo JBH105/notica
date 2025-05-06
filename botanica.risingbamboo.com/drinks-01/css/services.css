@@ -45,14 +45,14 @@ franchise-setup-header{
     min-height: 360px;
     background-color: #ffffff;
     border-radius: 16px;
-    box-shadow: 7px 10px 5px rgba(0, 0, 0, 0.08);
+    /* box-shadow: 7px 10px 5px rgba(0, 0, 0, 0.08); */
     overflow: hidden;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .service-item:hover {
     transform: translateY(-6px);
-    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+    /* box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15); */
 }
 
 .service-image-container {

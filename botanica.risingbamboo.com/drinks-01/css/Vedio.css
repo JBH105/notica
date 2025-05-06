@@ -1,54 +1,56 @@
 .video-section {
-    padding: 60px 20px;
+    padding: 40px 15px;
     text-align: center;
     color: hsl(0, 0%, 20%);
-}
+    /* height: 94vh; */
+    /* overflow: hidden; */
+    max-height: 100vh !important; 
 
-.shop-maps-swiper-wrapper-video {
-    max-width: 1200px;
-    width: 100%;
-    margin: 0 auto 70px auto;
+    /* margin-bottom: 60px; */
+    /* margin-botto: -30px; */
 }
 
 .video-section h2 {
-    font-size: 2.8rem;
-    margin-bottom: 40px;
-    letter-spacing: 1.5px;
-    font-weight: 700;
+    font-size: 2.2rem;
+    margin-bottom: 20px;
+    /* letter-spacing: 1.2px; */
+    font-weight: 800;
+    color: #222;
 }
 
 .video-container {
     max-width: 1200px;
+    width: 100%;
     margin: 0 auto;
 }
 
 .video-card {
     background-color: rgba(255, 255, 255, 0.98);
-    border-radius: 12px;
-    overflow: hidden;
-    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    /* overflow: hidden; */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     width: 100%;
-    max-width: 320px;
-    aspect-ratio: 9 / 16;
+    max-width: 300px;
+    aspect-ratio: 9/12;
 }
 
 .video-card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.15);
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
 }
 
 .video-card video {
     width: 100%;
-    height: 80%;
+    height: 75%;
     object-fit: cover;
     display: block;
-    border-bottom: 4px solid #ff4d4d;
+    border-bottom: 3px solid #ff4d4d;
 }
 
 .video-card p {
-    padding: 12px;
-    font-size: 1rem;
+    padding: 10px;
+    font-size: 0.95rem;
     color: #333;
     font-weight: 500;
     background-color: #fff;
@@ -59,7 +61,7 @@
 /* Swiper Styles */
 .swiper {
     width: 100%;
-    padding-bottom: 40px;
+    padding-bottom: 40px; /* Increased to accommodate larger pagination dots */
 }
 
 .swiper-slide {
@@ -70,22 +72,23 @@
 
 .swiper-button-next,
 .swiper-button-prev {
-    color: #ff4d4d;
-    background: rgba(255, 255, 255, 0.8);
+    color: #fff;
+    background: rgba(255, 77, 77, 0.8);
     border-radius: 50%;
-    width: 40px;
-    height: 40px;
-    transition: background 0.3s ease;
+    width: 36px;
+    height: 36px;
+    transition: background 0.3s ease, transform 0.2s ease;
 }
 
 .swiper-button-next:hover,
 .swiper-button-prev:hover {
-    background: rgba(255, 255, 255, 1);
+    background: rgba(255, 77, 77, 1);
+    transform: scale(1.1);
 }
 
 .swiper-button-next:after,
 .swiper-button-prev:after {
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .swiper-pagination {
@@ -95,12 +98,13 @@
 }
 
 .swiper-pagination-bullet {
-    background: #666;
-    opacity: 0.6;
+    background: #999;
+    opacity: 0.7;
     width: 12px;
     height: 12px;
     margin: 0 8px;
     transition: all 0.3s ease;
+    border: 1px solid #ff4d4d; /* Added border for better visibility */
 }
 
 .swiper-pagination-bullet-active {
@@ -108,86 +112,103 @@
     opacity: 1;
     width: 14px;
     height: 14px;
+    border: 1px solid #fff; /* White border for active dot */
+}
+
+.swiper-pagination-bullet {
+    width: 6px;
+    height: 6px;
+    margin: 0 2px;
 }
 
 /* Responsive Design */
 @media (max-width: 992px) {
     .video-section {
-        padding: 50px 15px;
+        padding: 30px 10px;
     }
-
     .video-section h2 {
-        font-size: 2.4rem;
+        font-size: 2rem;
     }
-
     .video-card {
-        max-width: 300px;
-    }
-
-    .shop-maps-swiper-wrapper-video {
-        padding: 0;
+        max-width: 280px;
     }
 }
 
 @media (max-width: 768px) {
     .video-section {
-        padding: 40px 10px;
+        padding: 20px 10px;
+        max-height: 90vh;
     }
-
     .video-section h2 {
-        font-size: 2rem;
+        font-size: 1.8rem;
     }
-
     .video-card {
-        max-width: 280px;
+        max-width: 260px;
     }
-
     .swiper-button-next,
     .swiper-button-prev {
-        width: 36px;
-        height: 36px;
+        width: 32px;
+        height: 32px;
     }
-
     .swiper-button-next:after,
     .swiper-button-prev:after {
-        font-size: 18px;
-    }
-
-    .shop-maps-swiper-wrapper-video {
-        padding: 0;
+        font-size: 16px;
     }
 }
 
 @media (max-width: 480px) {
     .video-section {
-        padding: 30px 5px;
+        padding: 15px 5px;
+        max-height: 100vh;
     }
-
     .video-section h2 {
-        font-size: 1.6rem;
-        font-weight: bold;
+        font-size: 1.5rem;
+        margin-bottom: 15px;
     }
-
     .video-card {
-        max-width: 380px;
+        max-width: 100%;
+        width: 90%;
+        aspect-ratio: 3 / 4;
+        margin: 0 20px;
     }
-
+    .video-card video {
+        height: 70%;
+    }
     .video-card p {
-        font-size: 0.9rem;
-        padding: 10px;
+        font-size: 0.85rem;
+        padding: 8px;
     }
-
+    .swiper-button-next,
+    .swiper-button-prev {
+        width: 28px;
+        height: 28px;
+    }
+    .swiper-button-next:after,
+    .swiper-button-prev:after {
+        font-size: 14px;
+    }
     .swiper-pagination-bullet {
         width: 10px;
         height: 10px;
+        margin: 0 6px;
     }
-
     .swiper-pagination-bullet-active {
         width: 12px;
         height: 12px;
     }
+.video-section {
+    margin-top: -50px;
+    height: 94vh;
 
-    .shop-maps-swiper-wrapper-video {
-        padding: 0;
+}
+}
+
+@media (max-width: 360px) {
+    .video-section {
+        padding: 10px 5px;
+        max-height: 75vh;
+    }
+    .video-card {
+        width: 95%;
     }
 }

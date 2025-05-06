@@ -1,22 +1,25 @@
-.shop-maps-swiper-wrapper {
+.shop-maps-swiper-wrapper,
+.video-slider-section {
     max-width: 1200px;
     width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.location-section {
+    /* margin-top: 100px; */
+    margin-bottom: 100px;
+}
+
+
+.shop-maps-swiper-wrapper {
     margin: 0 auto 70px auto;
-    padding: 0;
 }
 
-/* Swiper container */
-.shop-maps-swiper {
-    width: 100%;
-    padding: 20px 0;
-}
-
-/* Map card */
 .shop-map-card {
     background: #ffffff;
     border-radius: 10px;
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
-    overflow: hidden;
     width: 100%;
     max-width: 350px;
     height: 350px;
@@ -31,7 +34,6 @@
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 
-/* Map container */
 .shop-map-container {
     flex: 1;
     position: relative;
@@ -48,13 +50,10 @@
     border: 0;
 }
 
-/* Map info section */
 .shop-map-info {
     padding: 15px;
     text-align: center;
     flex: 0 0 auto;
-    max-height: 100px;
-    overflow: hidden;
 }
 
 .shop-map-info h2 {
@@ -62,8 +61,8 @@
     color: #333;
     margin: 0 0 8px;
     white-space: nowrap;
-    overflow: hidden;
     text-overflow: ellipsis;
+    overflow: hidden;
 }
 
 .shop-map-info p {
@@ -71,26 +70,10 @@
     color: #666;
     margin: 5px 0;
     white-space: nowrap;
-    overflow: hidden;
     text-overflow: ellipsis;
+    overflow: hidden;
 }
 
-/* Swiper navigation and pagination */
-.swiper-button-next.shop-maps-next,
-.swiper-button-prev.shop-maps-prev {
-    color: #333;
-}
-
-.swiper-pagination.shop-maps-pagination {
-    position: relative;
-    margin-top: 10px;
-}
-
-.swiper-pagination.shop-maps-pagination .swiper-pagination-bullet {
-    background: #555;
-}
-
-/* Header for the page */
 .page-header {
     text-align: center;
     margin-bottom: 40px;
@@ -108,11 +91,26 @@
     margin: 10px 0 0;
 }
 
-/* Responsive adjustments */
+/* ====== SWIPER BUTTONS & BULLETS ====== */
+.swiper-button-next.shop-maps-next,
+.swiper-button-prev.shop-maps-prev {
+    color: #333;
+}
+
+.swiper-pagination.shop-maps-pagination {
+    position: relative;
+    margin-top: 10px;
+}
+
+.swiper-pagination.shop-maps-pagination .swiper-pagination-bullet {
+    background: #555;
+}
+
+/* ====== RESPONSIVE ====== */
 @media screen and (max-width: 768px) {
     .shop-map-card {
         max-width: 300px;
-        height: 300px;
+        height: 340px;
     }
 
     .shop-map-info h2 {
@@ -123,15 +121,12 @@
         font-size: 0.9em;
     }
 
-    .shop-maps-swiper-wrapper {
-        padding: 0;
-    }
 }
 
 @media screen and (max-width: 480px) {
     .shop-map-card {
         max-width: 360px;
-        height: 280px;
+        height: 360px;
     }
 
     .shop-map-info h2 {
@@ -150,11 +145,8 @@
         font-size: 1em;
     }
 
-    .shop-maps-swiper-wrapper {
-        padding: 0;
+    .location-section {
+        margin-top: -140px;
     }
 
-    .container {
-        padding: 0;
-    }
 }

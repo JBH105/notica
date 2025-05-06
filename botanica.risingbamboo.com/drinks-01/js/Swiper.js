@@ -1,33 +1,32 @@
-const shopMapsSwiper = new Swiper('.shop-maps-swiper', {
-    slidesPerView: 1,
-    spaceBetween: 20,
-    loop: true,
-    autoplay: {
-        delay: 3000,
-        disableOnInteraction: false,
-    },
-    pagination: {
-        el: '.shop-maps-pagination',
-        clickable: true,
-    },
-    navigation: {
-        nextEl: '.shop-maps-next',
-        prevEl: '.shop-maps-prev',
-    },
-    breakpoints: {
-        0: {
-            slidesPerView: 1,
-            spaceBetween: 10,
+document.addEventListener('DOMContentLoaded', () => {
+   new Swiper('.shop-maps-swiper', {
+        slidesPerView: 3,
+        spaceBetween: 20,
+        loop: true,
+        pagination: {
+            el: '.shop-maps-pagination',
+            clickable: true,
         },
-        768: {
-            slidesPerView: 2,
-            spaceBetween: 30,
+        navigation: {
+            nextEl: '.shop-maps-next',
+            prevEl: '.shop-maps-prev',
         },
-        1024: {
-            slidesPerView: 3,
-            spaceBetween: 30,
+        slidesPerGroup: 1, 
+        breakpoints: {
+            0: {
+                slidesPerView: 1,
+                spaceBetween: 10,
+            },
+            768: {
+                slidesPerView: 2,
+                spaceBetween: 30,
+            },
+            1024: {
+                slidesPerView: 3,
+                spaceBetween: 20,
+            },
         },
-    },
+    });
 });
 
 
@@ -62,3 +61,4 @@ const shopMapsSwiper = new Swiper('.shop-maps-swiper', {
 // 		},
 // 	},
 // });
+

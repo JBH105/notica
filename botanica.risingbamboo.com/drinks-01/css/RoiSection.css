@@ -11,10 +11,10 @@
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
 }
 
-.container {
-  /* padding: 0 !important; */
-  /* margin: 0 !important; */
-}
+/* .container {
+  padding: 0 !important;
+  margin: 0 !important;
+} */
 
 .roi-content {
   display: flex;
@@ -275,7 +275,13 @@
   .food-image {
     object-fit: contain;
   }
+
 }
 
+/* @media (max-width: 480px) {
+  .ROI-section {
+    margin-top: -120px;
+  }
+} */
 
 /* ================= end here first roi section ===================*/

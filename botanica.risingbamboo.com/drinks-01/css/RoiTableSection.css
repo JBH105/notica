@@ -4,6 +4,7 @@
 .roi-section {
   padding: 40px 0 !important;
   /* background-color: #f8f9fa; */
+  margin-top: -40px;
 }
 
 .container {
@@ -193,6 +194,7 @@
   padding: 60px 20px;
   background-color: white;
   text-align: center;
+  margin-top: -50px;
 }
 
 .cta-section h2 {

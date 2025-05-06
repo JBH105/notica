@@ -1,8 +1,9 @@
 .product-section {
     max-width: 1200px;
     margin: 40px auto;
-    /* padding: 0 20px; */
+    padding: 20px;
     margin-bottom: 60px;
+    /* margin-top: -30px; */
 }
 
 .section-title {
@@ -13,7 +14,7 @@
 
 .product-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
     gap: 20px;
     justify-items: center;
 }
@@ -34,10 +35,11 @@
 
 .product-image {
     width: 100%;
+    max-width: 100%;
     height: auto;
     display: block;
     object-fit: contain; 
-    aspect-ratio: auto; 
+    aspect-ratio: 4/3; 
 }
 
 /* Product info section */
@@ -78,6 +80,9 @@
     .section-title {
         font-size: 2rem;
     }
+    .product-item {
+        max-width: 100%;
+    }
 }
 
 /*  Mobile view */
@@ -95,6 +100,11 @@
     }
 
     .product-image {
+        height: auto;
+        aspect-ratio: 4 / 3;
         object-fit: contain;
     }
+.product-section {
+    margin-top: -30px;
+}
 }
