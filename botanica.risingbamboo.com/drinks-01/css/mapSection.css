@@ -4,6 +4,7 @@
     width: 100%;
     margin: 0 auto;
     padding: 0 15px;
+    margin-top: 40px;
 }
 
 .location-section {
@@ -146,7 +147,7 @@
     }
 
     .location-section {
-        margin-top: -140px;
+        margin-top: -110px;
     }
 
 }

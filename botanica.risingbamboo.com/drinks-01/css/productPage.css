@@ -1,8 +1,8 @@
 .product-section {
     max-width: 1200px;
-    margin: 40px auto;
+    margin: 10px auto;
     padding: 20px;
-    margin-bottom: 60px;
+    margin-bottom: 20px;
     /* margin-top: -30px; */
 }
 
@@ -105,6 +105,6 @@
         object-fit: contain;
     }
 .product-section {
-    margin-top: -30px;
+    margin-top: -10px;
 }
 }
