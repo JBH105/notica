@@ -1,20 +1,27 @@
-.shop-maps-swiper-wrapper,
-.video-slider-section {
+.location-section {
+    padding: 40px 15px;
+    text-align: center;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.page-header h1 {
+    font-size: 2.5rem;
+    color: #222;
+    margin-bottom: 10px;
+}
+
+.page-header p {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.shop-maps-swiper-wrapper {
     max-width: 1200px;
     width: 100%;
     margin: 0 auto;
     padding: 0 15px;
-    margin-top: 40px;
-}
-
-.location-section {
-    /* margin-top: 100px; */
-    margin-bottom: 100px;
-}
-
-
-.shop-maps-swiper-wrapper {
-    margin: 0 auto 70px auto;
 }
 
 .shop-map-card {
@@ -28,6 +35,7 @@
     display: flex;
     flex-direction: column;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    overflow: hidden;
 }
 
 .shop-map-card:hover {
@@ -58,7 +66,7 @@
 }
 
 .shop-map-info h2 {
-    font-size: 1.5em;
+    font-size: 1.5rem;
     color: #333;
     margin: 0 0 8px;
     white-space: nowrap;
@@ -67,7 +75,7 @@
 }
 
 .shop-map-info p {
-    font-size: 1em;
+    font-size: 1rem;
     color: #666;
     margin: 5px 0;
     white-space: nowrap;
@@ -75,79 +83,191 @@
     overflow: hidden;
 }
 
-.page-header {
-    text-align: center;
-    margin-bottom: 40px;
+.location-section .swiper {
+    width: 100%;
+    padding-bottom: 40px;
+    overflow: visible;
 }
 
-.page-header h1 {
-    font-size: 2.5em;
-    color: #222;
-    margin: 0;
+.location-section .swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.page-header p {
-    font-size: 1.2em;
-    color: #555;
-    margin: 10px 0 0;
+.location-section .swiper-button-next,
+.location-section .swiper-button-prev {
+    color: #fff;
+    background: 2E7D32(255, 77, 77, 0.8);
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    transition: background 0.3s ease, transform 0.2s ease;
 }
 
-/* ====== SWIPER BUTTONS & BULLETS ====== */
-.swiper-button-next.shop-maps-next,
-.swiper-button-prev.shop-maps-prev {
-    color: #333;
+.location-section .swiper-button-next:hover,
+.location-section .swiper-button-prev:hover {
+    background: rgba(255, 77, 77, 1);
+    transform: scale(1.1);
 }
 
-.swiper-pagination.shop-maps-pagination {
+.location-section .swiper-button-next:after,
+.location-section .swiper-button-prev:after {
+    font-size: 18px;
+}
+
+.location-section .swiper-pagination {
     position: relative;
-    margin-top: 10px;
+    bottom: 0;
+    padding-top: 20px;
 }
 
-.swiper-pagination.shop-maps-pagination .swiper-pagination-bullet {
-    background: #555;
-}
+/* .location-section .swiper-pagination-bullet {
+    background: #999;
+    opacity: 0.7;
+    width: 12px;
+    height: 12px;
+    margin: 0 8px;
+    border: 1px solid #2E7D32;
+} */
 
-/* ====== RESPONSIVE ====== */
-@media screen and (max-width: 768px) {
+/* .location-section .swiper-pagination-bullet-active {
+    background: #2E7D32;
+    opacity: 1;
+    width: 14px;
+    height: 14px;
+    border: 1px solid #fff;
+} */
+
+/* Location Section Media Queries */
+@media (max-width: 1200px) {
+    .shop-maps-swiper-wrapper {
+        max-width: 100%;
+        padding: 0 10px;
+    }
+
     .shop-map-card {
         max-width: 300px;
-        height: 340px;
     }
-
-    .shop-map-info h2 {
-        font-size: 1.3em;
-    }
-
-    .shop-map-info p {
-        font-size: 0.9em;
-    }
-
 }
 
-@media screen and (max-width: 480px) {
-    .shop-map-card {
-        max-width: 360px;
-        height: 360px;
-    }
-
-    .shop-map-info h2 {
-        font-size: 1.2em;
-    }
-
-    .shop-map-info p {
-        font-size: 0.8em;
+@media (max-width: 992px) {
+    .location-section {
+        padding: 30px 10px;
     }
 
     .page-header h1 {
-        font-size: 2em;
+        font-size: 2rem;
+    }
+
+    .shop-map-card {
+        max-width: 280px;
+        height: 320px;
+    }
+
+    .shop-map-info h2 {
+        font-size: 1.3rem;
+    }
+
+    .shop-map-info p {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .location-section {
+        padding: 20px 10px;
+    }
+
+    .page-header h1 {
+        font-size: 1.8rem;
     }
 
     .page-header p {
-        font-size: 1em;
+        font-size: 1rem;
     }
 
+    .shop-map-card {
+        max-width: 90%;
+        height: 300px;
+    }
+
+    .location-section .swiper-button-next,
+    .location-section .swiper-button-prev {
+        width: 32px;
+        height: 32px;
+    }
+
+    .location-section .swiper-button-next:after,
+    .location-section .swiper-button-prev:after {
+        font-size: 16px;
+    }
+
+    .location-section .swiper-pagination-bullet {
+        width: 10px;
+        height: 10px;
+        margin: 0 6px;
+    }
+
+    .location-section .swiper-pagination-bullet-active {
+        width: 12px;
+        height: 12px;
+    }
+}
+
+@media (max-width: 480px) {
     .location-section {
-        margin-top: -110px;
+        padding: 15px 5px;
     }
 
+    .page-header h1 {
+        font-size: 1.5rem;
+    }
+
+    .page-header p {
+        font-size: 0.9rem;
+    }
+
+    .shop-map-card {
+        max-width: 95%;
+        height: 280px;
+    }
+
+    .shop-map-info h2 {
+        font-size: 1.2rem;
+    }
+
+    .shop-map-info p {
+        font-size: 0.8rem;
+    }
+
+    .swiper-button-next,
+     .swiper-button-prev {
+        width: 28px;
+        height: 28px;
+    }
+
+    .location-section .swiper-button-next:after,
+    .location-section .swiper-button-prev:after {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 360px) {
+    .location-section {
+        padding: 10px 5px;
+    }
+
+    .page-header h1 {
+        font-size: 1.3rem;
+    }
+
+    .page-header p {
+        font-size: 0.8rem;
+    }
+
+    .shop-map-card {
+        max-width: 98%;
+        height: 260px;
+    }
 }
