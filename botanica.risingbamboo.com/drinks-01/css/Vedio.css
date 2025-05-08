@@ -87,7 +87,7 @@
 .video-section .swiper-button-next,
 .video-section .swiper-button-prev {
     color: #fff;
-    background: rgba(35, 135, 40, 0.8);
+    background: rgba(67, 173, 219, 0.8);
     border-radius: 50%;
     width: 36px;
     height: 36px;
@@ -97,7 +97,7 @@
 
 .video-section .swiper-button-next:hover,
 .video-section .swiper-button-prev:hover {
-    background: #2E7D32;
+    background: #4f79b8;
     transform: scale(1.1);
 }
 
@@ -116,17 +116,17 @@
 .video-section .swiper-pagination-bullet {
     background: #fff;
     opacity: 0.7;
-    width: 10px;
-    height: 10px;
+    width: 6px;
+    height: 6px;
     margin: 0 6px;
-    border: 1px solid #2E7D32;
+    border: 1px solid #506eaa;
 }
 
 .video-section .swiper-pagination-bullet-active {
-    background: #2E7D32;
+    background: #367294;
     opacity: 1;
-    width: 12px;
-    height: 12px;
+    width: 9px;
+    height: 9px;
     border: 1px solid #fff;
 }
 
@@ -202,6 +202,9 @@
 }
 
 @media (max-width: 480px) {
+    .video-section{
+        padding: 0px 5px;
+    }
     .video-section h2 {
         font-size: 1.5rem;
         margin-bottom: 15px;
