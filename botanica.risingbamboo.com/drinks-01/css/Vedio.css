@@ -97,7 +97,7 @@
 
 .video-section .swiper-button-next:hover,
 .video-section .swiper-button-prev:hover {
-    background: #4f79b8;
+    background: #007aff;
     transform: scale(1.1);
 }
 
@@ -119,11 +119,11 @@
     width: 6px;
     height: 6px;
     margin: 0 6px;
-    border: 1px solid #506eaa;
+    border: 1px solid #007aff;
 }
 
 .video-section .swiper-pagination-bullet-active {
-    background: #367294;
+    background: #007aff;
     opacity: 1;
     width: 9px;
     height: 9px;

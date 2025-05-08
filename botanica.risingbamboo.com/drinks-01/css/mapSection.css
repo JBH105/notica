@@ -97,7 +97,7 @@
 .location-section .swiper-button-next,
 .location-section .swiper-button-prev {
     color: #fff;
-    background: #2E7D32(255, 77, 77, 0.8);
+    background: #007aff(255, 77, 77, 0.8);
     border-radius: 50%;
     width: 30px;
     height: 30px;
@@ -106,7 +106,7 @@
 
 .location-section .swiper-button-next:hover,
 .location-section .swiper-button-prev:hover {
-    background: rgb(41, 146, 39);
+    background: rgb(66, 154, 231);
     transform: scale(1.1);
 }
 
@@ -127,11 +127,11 @@
     width: 6px;
     height: 6px;
     margin: 0 8px;
-    border: 1px solid #2E7D32;
+    border: 1px solid #007aff;
 }
 
 .location-section .swiper-pagination-bullet-active {
-    background: #2E7D32;
+    background: #007aff;
     opacity: 1;
     width: 14px;
     height: 14px;

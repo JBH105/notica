@@ -198,3 +198,8 @@
         max-width: 140px;
     }
 }
+@media (max-width: 480px){
+    .about-section {
+        margin-top: -60px;
+    }   
+}
