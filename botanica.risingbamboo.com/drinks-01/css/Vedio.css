@@ -114,19 +114,20 @@
 }
 
 .video-section .swiper-pagination-bullet {
-    background: #fff;
+    background: #999;
     opacity: 0.7;
     width: 6px;
     height: 6px;
     margin: 0 6px;
     border: 1px solid #007aff;
+   
 }
 
 .video-section .swiper-pagination-bullet-active {
     background: #007aff;
     opacity: 1;
-    width: 9px;
-    height: 9px;
+    width: 8px;
+    height: 8px;
     border: 1px solid #fff;
 }
 
