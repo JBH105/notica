@@ -1,0 +1,463 @@
+{
+  "categories": [
+    {
+      "id": "ice-Mojhito",
+      "title": "Ice & Mojhito",
+      "icon": "botanica.risingbamboo.com/drinks-01/assets/CategoryImage/Ice-Mojhito.png",
+      "items": [
+        {
+          "name": "Blue Curacao"
+        },
+        {
+          "name": "Mint Mojhito"
+        },
+        {
+          "name": "Water Melon"
+        },
+        {
+          "name": "Blue Berry Ice"
+        },
+        {
+          "name": "Chilli Mojhito"
+        },
+        {
+          "name": "Falsa Ice"
+        },
+        {
+          "name": "Guava Ice"
+        },
+        {
+          "name": "Green mango Ice"
+        },
+        {
+          "name": "Lemon Ice"
+        },
+        {
+          "name": "Lichy Ice"
+        },
+        {
+          "name": "Pineapple Ice"
+        },
+        {
+          "name": " Cranberre"
+        },
+        {
+          "name": "Strawberry Ice Milk"
+        },
+        {
+          "name": "Jeera Masala Ice"
+        },
+        {
+          "name": "Kulfi Falooda"
+        },
+        {
+          "name": "American Ice"
+        },
+        {
+          "name": "Coffe "
+        },
+        {
+          "name": "Pan Pasand "
+        },
+        {
+          "name": "Kashmiri Gulab"
+        },
+        {
+          "name": "Blue Lagoon"
+        },
+        {
+          "name": "Pinaromance Mocktail"
+        },
+        {
+          "name": "Passion Fruit Mocktail"
+        },
+        {
+          "name": "Kala khatta Ice"
+        },
+        {
+          "name": "Wine Grapes "
+        },
+        {
+          "name": "Red Hot Mocktail "
+        },
+        {
+          "name": "Angrybee Mocktail"
+        },
+        {
+          "name": "Beer Coffee"
+        },
+        {
+          "name": "Beer Malt"
+        },
+        {
+          "name": "Beer Chocolate"
+        },
+        {
+          "name": "Beer Craneberry"
+        },
+        {
+          "name": "Beer Ginger"
+        },
+        {
+          "name": "Kokum"
+        },
+        {
+          "name": "Chocolate"
+        },
+        {
+          "name": "Orange"
+        },
+        {
+          "name": "Pineapple"
+        },
+        {
+          "name": "Litchi"
+        }
+      ]
+    },
+    {
+      "id": "ice",
+      "title": "Ice",
+      "icon": "botanica.risingbamboo.com/drinks-01/assets/CategoryImage/Ice.png",
+      "items": [
+        {
+          "name": "verry Berry Ice"
+        },
+        {
+          "name": "Kiwi"
+        },
+        {
+          "name": "Mixed Fruit Ice"
+        },
+        {
+          "name": "Mosambi"
+        },
+        {
+          "name": "Blackcurrant"
+        },
+        {
+          "name": "Royal Dryfruit"
+        },
+        {
+          "name": "Pina Colada"
+        },
+        {
+          "name": "Green mango Ice"
+        },
+        {
+          "name": "Lemon Ice"
+        }
+      ]
+    },
+    {
+      "id": "milk",
+      "title": "Milk",
+      "icon": "botanica.risingbamboo.com/drinks-01/assets/CategoryImage/Milk.png",
+      "items": [
+        {
+          "name": "Rose Milk & water"
+        },
+        {
+          "name": "Kesar Pista Milk"
+        },
+        {
+          "name": "Badam Pista Milk"
+        },
+        {
+          "name": "Mava Malai Milk"
+        },
+        {
+          "name": "Kesar Rajbhog milk"
+        },
+        {
+          "name": "Mango Milk"
+        },
+        {
+          "name": "Butter Scotch Milk"
+        },
+        {
+          "name": "Cocaa Chocolate Milk"
+        },
+        {
+          "name": "Badam Pista Milk"
+        },
+        {
+          "name": "Chickoo"
+        },
+        {
+          "name": "Kesar"
+        },
+        {
+          "name": "Pista"
+        },
+        {
+          "name": "Anjeer"
+        },
+        {
+          "name": "Badamashake"
+        },
+        {
+          "name": "Coco"
+        }
+      ]
+    },
+    {
+      "id": "soda",
+      "title": "Soda Flav",
+      "icon": "botanica.risingbamboo.com/drinks-01/assets/CategoryImage/Soda-Flav.png",
+      "items": [
+        {
+          "name": "Mango GHAAT "
+        },
+        {
+          "name": "Strawberry GHAAT"
+        },
+        {
+          "name": "Litchi"
+        },
+        {
+          "name": "Sprite"
+        },
+        {
+          "name": "Lemon"
+        },
+        {
+          "name": "Cola"
+        },
+        {
+          "name": "Jeera Masala"
+        },
+        {
+          "name": "Guava"
+        },
+        {
+          "name": "Dadam"
+        },
+        {
+          "name": "Kiwi"
+        },
+        {
+          "name": "vimto"
+        },
+        {
+          "name": "Kala khatta"
+        },
+        {
+          "name": "Sosyo"
+        },
+        {
+          "name": "Blue Berry"
+        },
+        {
+          "name": "Orange"
+        },
+        {
+          "name": "Beer"
+        },
+        {
+          "name": "Pineapple"
+        },
+         {
+          "name": "Fresh Lime"
+        },
+         {
+          "name": "Green Mango"
+        },
+         {
+          "name": "Clear lemon"
+        },
+         {
+          "name": "Fudina masala"
+        },
+         {
+          "name": "Anar"
+        },
+         {
+          "name": "Red Jamfal"
+        }
+      
+      ]
+    },
+    {
+      "id": "other-products",
+      "title": "Other products",
+      "icon": "botanica.risingbamboo.com/drinks-01/assets/CategoryImage/Other-Product.png",
+      "items": [
+        {
+          "name": "30 - 60 ML",
+          "image": "botanica.risingbamboo.com/drinks-01/assets/product/30-60.png"
+        },
+        {
+          "name": "Lemon Basket",
+          "image": "botanica.risingbamboo.com/drinks-01/assets/product/fruitBasket.png"
+        },
+        {
+          "name": "Knife",
+          "image": "botanica.risingbamboo.com/drinks-01/assets/product/Knife.jpg"
+        },
+        {
+          "name": "Glass ML",
+          "image": "botanica.risingbamboo.com/drinks-01/assets/product/ml-glass.png"
+        },
+        {
+          "name": "20 Ltr Bucket",
+          "image": "botanica.risingbamboo.com/drinks-01/assets/product/Bucket.png"
+        },
+        {
+          "name": "1 Ltr Jug 500 ML JUG",
+          "image": "botanica.risingbamboo.com/drinks-01/assets/product/Jug.png"
+        },
+        {
+          "name": "Double Net Water Strainer",
+          "image": "botanica.risingbamboo.com/drinks-01/assets/product/waterStrainer.png"
+        },
+        {
+          "name": "Cash Box",
+          "image": "botanica.risingbamboo.com/drinks-01/assets/product/cashBox.png"
+        },
+        {
+          "name": "Drawer",
+          "image": "botanica.risingbamboo.com/drinks-01/assets/product/Drawer.png"
+        },
+        {
+          "name": "Morter & Pastel Wooden",
+          "image": "botanica.risingbamboo.com/drinks-01/assets/product/pastel.png"
+        },
+        {
+          "name": "Steel Soup Ladel",
+          "image": "botanica.risingbamboo.com/drinks-01/assets/product/soupladel.png"
+        },
+        {
+          "name": "Dustbin 100 Ltr",
+          "image": "botanica.risingbamboo.com/drinks-01/assets/product/dustbin.png"
+        },
+        {
+          "name": "Cocktail Glass </br> 6 Pieces",
+          "image": "botanica.risingbamboo.com/drinks-01/assets/product/cockTailnew.png"
+        },
+        {
+          "name": "Faluda Glass </br> 6 Pieces",
+          "image": "botanica.risingbamboo.com/drinks-01/assets/product/faludaGlass.png"
+        },
+        {
+          "name": "Ice Glass </br> 12 Pieces",
+          "image": "botanica.risingbamboo.com/drinks-01/assets/product/iceGlass.png"
+        },
+        {
+          "name": "Milk Shake Glass </br> 12 Pieces",
+          "image": "botanica.risingbamboo.com/drinks-01/assets/product/Milk.png"
+        },
+        {
+          "name": "Fuljar glass </br> 12 Pieces",
+          "image": "botanica.risingbamboo.com/drinks-01/assets/product/fuljhar.png"
+        },
+        {
+          "name": "Fuljar Small glass </br> 6 Pieces",
+          "image": "botanica.risingbamboo.com/drinks-01/assets/product/smallFuljhar.png"
+        },
+        {
+          "name": "Jamun Shots Glass </br> 6 Pieces",
+          "image": "botanica.risingbamboo.com/drinks-01/assets/product/jamunShots.png"
+        },
+        {
+          "name": "Ice Box",
+          "image": "botanica.risingbamboo.com/drinks-01/assets/product/iceBox.png"
+        },
+        {
+          "name": "Ice Crusher",
+          "image": "botanica.risingbamboo.com/drinks-01/assets/product/iceCrusher.png"
+        },
+        {
+          "name": "Cap Bottle </br> 2 pieces",
+          "image": "botanica.risingbamboo.com/drinks-01/assets/product/capBottle.png"
+        },
+        {
+          "name": "Jar </br> 6 pieces",
+          "image": "botanica.risingbamboo.com/drinks-01/assets/product/BottleJar.png"
+        },
+        {
+          "name": "Big Plastcics Funnels </br> 6 pieces",
+          "image": "botanica.risingbamboo.com/drinks-01/assets/product/funnel.png"
+        },
+        {
+          "name": "Spoon </br> 6 Pieces",
+          "image": "botanica.risingbamboo.com/drinks-01/assets/product/spoon.png"
+        },
+        {
+          "name": "Glass Trey </br> 2 Pieces",
+          "image": "botanica.risingbamboo.com/drinks-01/assets/product/tray.png"
+        },
+        {
+          "name": "Water Jar </br> 2 Pieces",
+          "image": "botanica.risingbamboo.com/drinks-01/assets/product/water.png"
+        },
+        {
+          "name": "Co2 Gas Bottels 30kg </br> 2 Pieces",
+          "image": "botanica.risingbamboo.com/drinks-01/assets/product/carbon.png"
+        },
+        {
+          "name": "3 Watt 2:PINK 2:BLUE 2:GREEN </br> 6 Pieces",
+          "image": "botanica.risingbamboo.com/drinks-01/assets/product/3-watt.png"
+        },
+        {
+          "name": "Ceiling Lights </br>6 Pieces",
+          "image": "botanica.risingbamboo.com/drinks-01/assets/product/ceilingLight.png"
+        },
+        {
+          "name": "Plier",
+          "image": "botanica.risingbamboo.com/drinks-01/assets/product/Plier.png"
+        },
+        {
+          "name": "Adjustable Spammers",
+          "image": "botanica.risingbamboo.com/drinks-01/assets/product/spammers.png"
+        },
+        {
+          "name": "Testers",
+          "image": "botanica.risingbamboo.com/drinks-01/assets/product/tester.png"
+        },
+        {
+          "name": "Screw Driver",
+          "image": "botanica.risingbamboo.com/drinks-01/assets/product/screwDriver.png"
+        },
+        {
+          "name": "Tep Rol",
+          "image": "botanica.risingbamboo.com/drinks-01/assets/product/tapRoll.png"
+        },
+        {
+          "name": "Syrup Tanks </br> 14 Pieces",
+          "image": "botanica.risingbamboo.com/drinks-01/assets/product/syrupTank.png"
+        },
+        {
+          "name": "Co2 Regulator",
+          "pieces": "",
+          "image": "botanica.risingbamboo.com/drinks-01/assets/product/Regulator-Co2.webp"
+        },
+        {
+          "name": "O Rings </br> 30 Pieces",
+          "image": "botanica.risingbamboo.com/drinks-01/assets/product/rubber-rings.jpg"
+        },
+        {
+          "name": "Connectors </br> 2 set",
+          "image": "botanica.risingbamboo.com/drinks-01/assets/product/connectors.png"
+        },
+        {
+          "name": "Clamp </br> 5 Pieces",
+          "image":"botanica.risingbamboo.com/drinks-01/assets/product/clampsNew.png"
+        },
+        {
+           "name": "PCB",
+          "image":"botanica.risingbamboo.com/drinks-01/assets/product/pcb-circuit.webp"
+        },
+        {
+          "name": "Co2 Regulator Ring </br> 2 Pieces",
+          "image":"botanica.risingbamboo.com/drinks-01/assets/product/regulatorRing.jpeg"
+        },
+        {
+          "name": "Sensor",
+          "image":"botanica.risingbamboo.com/drinks-01/assets/product/sensor.png"
+        }
+        
+      ]
+    }
+  ]
+}

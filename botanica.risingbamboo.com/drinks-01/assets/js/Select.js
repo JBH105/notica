@@ -9,8 +9,8 @@
 
     // For older browsers (optional)
     document.body.setAttribute("unselectable", "on");
-    document.body.style.webkitUserSelect = "none"; // Chrome, Safari
-    document.body.style.msUserSelect = "none";     // IE/Edge
-    document.body.style.MozUserSelect = "none";    // Firefox
+    document.body.style.webkitUserSelect = "none"; 
+    document.body.style.msUserSelect = "none";     
+    document.body.style.MozUserSelect = "none";   
   });
 

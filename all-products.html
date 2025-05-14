@@ -6,447 +6,98 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>All Products</title>
     <style>
-        * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f4f0;
-}
-
-.product-section {
-    /* max-width: 1200px;
-    margin: 40px auto; */
-    padding:20px;
-}
-
-.section-title {
-    text-align: center;
-    color: #2e7d32;
-    margin-bottom: 30px;
-    font-size: 2.5rem;
-}
-
-.product-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-    gap: 20px;
-    justify-items: center;
-}
-
-.product-item {
-    background-color: #ffffff;
-    border-radius: 10px;
-    overflow: hidden;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease;
-    width: 100%;
-    max-width: 300px;
-}
-
-.product-item:hover {
-    transform: translateY(-5px);
-}
-
-.product-image {
-    width: 100%;
-    max-width: 100%;
-    height: auto;
-    aspect-ratio: 4/3;
-    object-fit: contain;
-    display: block;
-}
-
-/* 👇 Fix: Adjust for mobile view */
-@media (max-width: 480px) {
-    .product-image {
-        height: auto;
-        aspect-ratio: 4 / 3;
-        object-fit: contain;
-    }
-}
-
-.product-info {
-    padding: 15px;
-    text-align: center;
-}
-
-.product-info h3 {
-    color: #2e7d32;
-    font-size: 1.2rem;
-    margin-bottom: 10px;
-}
-
-.btn-wrapper {
-    text-align: center; /* Centers inline-block buttons */
-}
-
-.back-btn {
-    display: inline-block;
-    padding: 12px 24px;
-    background-color: #4caf50;
-    color: white !important;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 1rem;
-    text-decoration: none;
-    text-align: center;
-    transition: background-color 0.3s ease;
-    margin-top: 30px;
-}
-
-.back-btn:hover {
-    background-color: #388e3c;
-}
-
-
-@media (max-width: 768px) {
-    /* .product-grid {
-        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    } */
-
-    .section-title {
-        font-size: 2rem;
-    }
-
-    .product-item {
-        max-width: 100%;
-    }
-}
-
-@media (max-width: 480px) {
-    .product-grid {
-        grid-template-columns: 1fr;
-    }
-
-    .product-item {
-        width: 100%;
-    }
-
-    .section-title {
-        font-size: 1.8rem;
-    }
-
-    .product-image {
-        width: 100%;
-        aspect-ratio: 4 / 3;
-        object-fit: contain;
-    }
-}
 
     </style>
+
+    <link rel="stylesheet" href="./botanica.risingbamboo.com/drinks-01/css/Sidebar.css">
+    <link rel="stylesheet" href="./botanica.risingbamboo.com/drinks-01/css/allproduct.css">
 </head>
 
 <body>
-    <section class="product-section">
-        <h2 class="section-title">All Products</h2>
-        <div class="product-grid">
-            <div class="product-item">
-                <img src="./botanica.risingbamboo.com/drinks-01/assets/product/30-60.png" alt="30-60 ML" class="product-image">
-                <div class="product-info">
-                    <h3> 30 - 60 ML</h3>
-                </div>
-            </div>
-            <div class="product-item">
-                <img src="./botanica.risingbamboo.com/drinks-01/assets/product/fruitBasket.png"
-                    alt="lemon basket" class="product-image">
-                <div class="product-info">
-                    <h3>Lemon Basket</h3>
-                </div>
-            </div>
-            <div class="product-item">
-                <img src="botanica.risingbamboo.com/drinks-01/assets/product/Knife.jpg" alt="KNIFE" class="product-image">
-                <div class="product-info">
-                    <h3>Knife</h3>
-                </div>
-            </div>
-            <div class="product-item">
-                <img src="./botanica.risingbamboo.com/drinks-01/assets/product/ml-glass.png"
-                    alt="GLass ML" class="product-image">
-                <div class="product-info">
-                    <h3>Glass ML</h3>
-                </div>
-            </div>
-            <div class="product-item">
-                <img src="./botanica.risingbamboo.com/drinks-01/assets/product/Bucket.png"
-                    alt="20 Ltr Bucket" class="product-image">
-                <div class="product-info">
-                    <h3>20 Ltr Bucket</h3>
-                </div>
-            </div>
-            <div class="product-item">
-                <img src="./botanica.risingbamboo.com/drinks-01/assets/product/Jug.png"
-                    alt="1 Ltr Jug" class="product-image">
-                <div class="product-info">
-                    <h3>1 Ltr Jug 500 ML JUG</h3>
-                </div>
-            </div>
-            <div class="product-item">
-                <img src="./botanica.risingbamboo.com/drinks-01/assets/product/waterStrainer.png"
-                    alt="Double Net Water Strainer" class="product-image">
-                <div class="product-info">
-                    <h3>Double Net Water Strainer</h3>
-                </div>
-            </div>
-            <div class="product-item">
-                <img src="./botanica.risingbamboo.com/drinks-01/assets/product/cashBox.png"
-                    alt="Cash Box " class="product-image">
-                <div class="product-info">
-                    <h3>Cash Box</h3>
-                </div>
-            </div>
-            <div class="product-item">
-                <img src="./botanica.risingbamboo.com/drinks-01/assets/product/Drawer.png"
-                    alt=" Drawer" class="product-image">
-                <div class="product-info">
-                    <h3> Drawer</h3>
-                </div>
-            </div>
-            <div class="product-item">
-                <img src="./botanica.risingbamboo.com/drinks-01/assets/product/pastel.png"
-                    alt="Morter & Pastel Wooden" class="product-image">
-                <div class="product-info">
-                    <h3>Morter & Pastel Wooden</h3>
-                </div>
-            </div>
-            <div class="product-item">
-                <img src="./botanica.risingbamboo.com/drinks-01/assets/product/soupladel.png"
-                    alt="Steel Soup Ladel" class="product-image">
-                <div class="product-info">
-                    <h3>Steel Soup Ladel</h3>
-                </div>
-            </div>
-            <div class="product-item">
-                <img src="./botanica.risingbamboo.com/drinks-01/assets/product/dustbin.png"
-                    alt="Dustbin 100 Ltr" class="product-image">
-                <div class="product-info">
-                    <h3>Dustbin 100 Ltr</h3>
-                </div>
-            </div>
-            <div class="product-item">
-                <img src="./botanica.risingbamboo.com/drinks-01/assets/product/cockTailnew.png"
-                    alt=" Cocktail 6 Pieces" class="product-image">
-                <div class="product-info">
-                    <h3> Cocktail Glass <br/> 6 Pieces</h3>
-                </div>
-            </div>
-            <div class="product-item">
-                <img src="./botanica.risingbamboo.com/drinks-01/assets/product/faludaGlass.png"
-                    alt="Faluda Glass 6 Pieces" class="product-image">
-                <div class="product-info">
-                    <h3>Faluda Glass <br/> 6 Pieces</h3>
-                </div>
-            </div>
-            <div class="product-item">
-                <img src="/botanica.risingbamboo.com/drinks-01/assets/product/iceGlass.png" alt="Ice Glass 12 Pieces"
-                    class="product-image">
-                <div class="product-info">
-                    <h3>Ice Glass <br/> 12 Pieces</h3>
-                </div>
-            </div>
-            <div class="product-item">
-                <img src="./botanica.risingbamboo.com/drinks-01/assets/product/MilkShake-1.webp"
-                    alt="Milk shakes 12 pcs" class="product-image">
-                <div class="product-info">
-                    <h3>Milk Shake Glass <br/> 12 Pieces</h3>
-                </div>
-            </div>
-            <div class="product-item">
-                <img src="./botanica.risingbamboo.com/drinks-01/assets/product/fuljhar.png"
-                    alt="Fuljar glass" class="product-image">
-                <div class="product-info">
-                    <h3>Fuljar Glass  <br/>
-                        12 Pieces</h3>
-                </div>
-            </div>
-            <div class="product-item">
-                <img src="./botanica.risingbamboo.com/drinks-01/assets/product/smallFuljhar.png"
-                    alt=" Fuljar Small Glass 6 Pieces" class="product-image">
-                <div class="product-info">
-                    <h3> Fuljar Small Glass <br/> 6 Pieces</h3>
-                </div>
-            </div>
-            <div class="product-item">
-                <img src="./botanica.risingbamboo.com/drinks-01/assets/product/jamunShots.png"
-                    alt="Jamun Shots 6 pieces" class="product-image">
-                <div class="product-info">
-                    <h3>Jamun Shots Glass <br/>  6 pieces</h3>
-                </div>
-            </div>
-            <div class="product-item">
-                <img src="./botanica.risingbamboo.com/drinks-01/assets/product/iceBox.png"
-                    alt="Ice Box" class="product-image">
-                <div class="product-info">
-                    <h3>Ice Box</h3>
-                </div>
-            </div>
-            <div class="product-item">
-                <img src="./botanica.risingbamboo.com/drinks-01/assets/product/iceCrusher.png"
-                    alt=" Ice Crusher" class="product-image">
-                <div class="product-info">
-                    <h3> Ice Crusher</h3>
-                </div>
-            </div>
-            <div class="product-item">
-                <img src="./botanica.risingbamboo.com/drinks-01/assets/product/capBottle.png" alt="Cap Bottle 2 pieces" class="product-image">
-                <div class="product-info">
-                    <h3>Cap Bottle  <br/> 2 pieces</h3>
-                </div>
-            </div>
-            <div class="product-item">
-                <img src="./botanica.risingbamboo.com/drinks-01/assets/product/BottleJar.png"
-                    alt="Jar 6 Pieces" class="product-image">
-                <div class="product-info">
-                    <h3>Jar <br/> 6 Pieces</h3>
-                </div>
-            </div>
-            <div class="product-item">
-                <img src="./botanica.risingbamboo.com/drinks-01/assets/product/funnel.png"
-                    alt=" Big Plastcics Funnels" class="product-image">
-                <div class="product-info">
-                    <h3> Big Plastcics Funnels</h3>
-                </div>
-            </div>
-            <div class="product-item">
-                <img src="./botanica.risingbamboo.com/drinks-01/assets/product/spoon.png"
-                    alt="Spoon 6 Pieces" class="product-image">
-                <div class="product-info">
-                    <h3>Spoon <br/> 6 Pieces</h3>
-                </div>
-            </div>
-            <div class="product-item">
-                <img src="./botanica.risingbamboo.com/drinks-01/assets/product/tray.png" alt="Glass Trey 2 Pieces"
-                    class="product-image">
-                <div class="product-info">
-                    <h3>Glass Trey <br/> 2 Pieces</h3>
-                </div>
-            </div>
-            <div class="product-item">
-                <img src="./botanica.risingbamboo.com/drinks-01/assets/product/water.png"
-                    alt="Water Jar 2 Pieces " class="product-image">
-                <div class="product-info">
-                    <h3>Water Jar <br/> 2 Pieces</h3>
-                </div>
-            </div>
-            <div class="product-item">
-                <img src="./botanica.risingbamboo.com/drinks-01/assets/product/carbon.png" alt=" Co2 Gas Bottels 30 Kg 2 Pieces"
-                    class="product-image">
-                <div class="product-info">
-                    <h3> Co2 Gas Bottels  <br/>30 Kg  <br/> 2 Pieces</h3>
-                </div>
-            </div>
-            <div class="product-item">
-                <img src="./botanica.risingbamboo.com/drinks-01/assets/product/3-watt.png" alt=" 3 Watt 6 Pieces"
-                    class="product-image">
-                <div class="product-info">
-                    <h3>3 Watt 6 Pieces <br/> 2:PINK 2:BLUE 2:GREEN </h3>
-                </div>
-            </div>
-            <div class="product-item">
-                <img src="./botanica.risingbamboo.com/drinks-01/assets/product/ceilingLight.png"
-                    alt=" Celiiling Lights 6 Pieces" class="product-image">
-                <div class="product-info">
-                    <h3> Celiiling Lights <br/> 6 Pieces</h3>
-                </div>
-            </div>
-            <div class="product-item">
-                <img src="./botanica.risingbamboo.com/drinks-01/assets/product/Plier.png"
-                    alt="Plier" class="product-image">
-                <div class="product-info">
-                    <h3>Plier</h3>
-                </div>
-            </div>
-            <div class="product-item">
-                <img src="./botanica.risingbamboo.com/drinks-01/assets/product/spammers.png"
-                    alt=" Adjustable Spammers" class="product-image">
-                <div class="product-info">
-                    <h3>Adjustable Spammers </h3>
-                </div>
-            </div>
-            <div class="product-item">
-                <img src="./botanica.risingbamboo.com/drinks-01/assets/product/tester.png"
-                    alt=" Testers" class="product-image">
-                <div class="product-info">
-                    <h3> Testers</h3>
-                </div>
-            </div>
-            <div class="product-item">
-                <img src="./botanica.risingbamboo.com/drinks-01/assets/product/screwDriver.png"
-                    alt=" Screw Driver" class="product-image">
-                <div class="product-info">
-                    <h3> Screw Driver</h3>
-                </div>
-            </div>
-            <div class="product-item">
-                <img src="./botanica.risingbamboo.com/drinks-01/assets/product/tapRoll.png"
-                    alt="Tep Rol" class="product-image">
-                <div class="product-info">
-                    <h3>Tep Rol</h3>
-                </div>
-            </div>
-            <div class="product-item">
-                <img src="./botanica.risingbamboo.com/drinks-01/assets/product/syrupTank.png"
-                    alt="Syrup Tanks 14 Pieces" class="product-image">
-                <div class="product-info">
-                    <h3>Syrup Tanks <br/> 14 Pieces</h3>
-                </div>
-            </div>
-            <div class="product-item">
-                <img src="./botanica.risingbamboo.com/drinks-01/assets/product/Regulator-Co2.webp"
-                    alt="Co2 Regulator" class="product-image">
-                <div class="product-info">
-                    <h3>Co2 Regulator</h3>
-                </div>
-            </div>
-            <div class="product-item">
-                <img src="./botanica.risingbamboo.com/drinks-01/assets/product/rubber-rings.jpg"
-                    alt="O Rings 30 Pieces" class="product-image">
-                <div class="product-info">
-                    <h3>O Rings <br/>30 Pieces</h3>
-                </div>
-            </div>
-            <div class="product-item">
-                <img src="./botanica.risingbamboo.com/drinks-01/assets/product/connectors.png" alt="Connectors"
-                    class="product-image">
-                <div class="product-info">
-                    <h3>Connectors <br/> 2 set</h3>
-                </div>
-            </div>
-            <div class="product-item">
-                <img src="./botanica.risingbamboo.com/drinks-01/assets/product/clampsNew.png" alt=" Clamp"
-                    class="product-image">
-                <div class="product-info">
-                    <h3> Clamp <br/> 5 Pieces</h3>
-                </div>
-            </div>
-            <div class="product-item">
-                <img src="./botanica.risingbamboo.com/drinks-01/assets/product/pcb-circuit.webp"
-                    alt="PCB" class="product-image">
-                <div class="product-info">
-                    <h3>PCB</h3>
-                </div>
-            </div>
-            <div class="product-item">
-                <img src="./botanica.risingbamboo.com/drinks-01/assets/product/regulatorRing.jpeg" alt=" Co2 Regulator Ring 2 pieces" class="product-image">
-                <div class="product-info">
-                    <h3> Co2 Regulator Ring <br/> 2 Pieces</h3>
-                </div>
-            </div>
-            <div class="product-item">
-                <img src="./botanica.risingbamboo.com/drinks-01/assets/product/sensor.png" alt="Sensor" class="product-image">
-                <div class="product-info">
-                    <h3>Sensor</h3>
-                </div>
-            </div>
-        </div>
-        <div class="btn-wrapper">
-            <a href="index.html" class="back-btn">Back to Home</a>
-        </div>
-    </section>
+    <div class="sidebar" id="sidebar">
+        <h2>Drink Categories</h2>
+    </div>
+
+    <div class="main-content" id="main-content">
+    </div>
+
+    <script>
+        fetch('./botanica.risingbamboo.com/drinks-01/assets/Data/Category.json')
+            .then(res => res.json())
+            .then(data => {
+                const sidebar = document.getElementById('sidebar');
+                const mainContent = document.getElementById('main-content');
+
+                data.categories.forEach((cat, index) => {
+                    // Sidebar category item
+                    const categoryDiv = document.createElement('div');
+                    categoryDiv.classList.add('category');
+                    if (index === 0) categoryDiv.classList.add('active');
+                    categoryDiv.setAttribute('data-category', cat.id);
+                    categoryDiv.innerHTML = cat.icon
+                        ? `<img src="${cat.icon}" alt="${cat.title}"><span>${cat.title}</span>`
+                        : `<span class="text-only-category">${cat.title}</span>`;
+                    sidebar.appendChild(categoryDiv);
+
+                    // Product section
+                    const productSection = document.createElement('div');
+                    productSection.classList.add('products');
+
+                    if (index === 4) {
+                        productSection.classList.add('with-images', 'product-section');
+                    }
+
+                    productSection.id = cat.id;
+                    if (index !== 0) productSection.style.display = 'none';
+
+                    cat.items.forEach(item => {
+                        const productDiv = document.createElement('div');
+
+                        if (index === 4 && item.image) {
+                            productDiv.classList.add('product-item');
+                            productDiv.innerHTML = `
+                             <img class="product-image" src="${item.image}" alt="${item.name}">
+                            <div class="product-info">
+                                <h3>${item.name}</h3>
+                             </div>
+                        `;
+                        } else if (item.image) {
+                            productDiv.classList.add('product');
+                            productDiv.innerHTML = `
+                            <img src="${item.image}" alt="${item.name}">
+                            <p class="product-name">${item.name}</p>
+                            `;
+                        } else {
+                            productDiv.classList.add('text-product');
+                            productDiv.innerHTML = `
+                              <p class="text-product-name">${item.name}</p>
+                             `;
+                        }
+
+                        productSection.appendChild(productDiv);
+                    });
+
+                    mainContent.appendChild(productSection);
+                });
+
+                // Click handling
+                document.querySelectorAll('.category').forEach(cat => {
+                    cat.addEventListener('click', () => {
+                        document.querySelectorAll('.category').forEach(c => c.classList.remove('active'));
+                        cat.classList.add('active');
+
+                        const target = cat.getAttribute('data-category');
+                        document.querySelectorAll('.products').forEach(p => {
+                            p.style.display = p.id === target ? 'grid' : 'none';
+                        });
+                    });
+                });
+            });
+    </script>
+
+
+
+    <!-- <script src="./botanica.risingbamboo.com/drinks-01/js/Sidebar.js"></script> -->
 </body>
 
 </html>
