@@ -1,0 +1,157 @@
+.marketing-section {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 50px 30px;
+  text-align: center;
+  /* background: linear-gradient(120deg, #95a498, #a0e7d8); */
+  color: #1b3a2f;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+
+.marketing-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  /* text-transform: uppercase; */
+  letter-spacing: 1.5px;
+  /* color: #144f3f; */
+}
+
+.marketing-section p {
+  font-size: 1.2rem;
+  max-width: 800px;
+  margin: 0 auto 30px auto;
+  line-height: 1.8;
+  color: #333;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 15px 35px;
+  background-color: #3ab43e;
+  color: #fff;
+  font-size: 1.1rem;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 50px;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.cta-button:hover {
+  background-color: #166618;
+  transform: translateY(-3px);
+  color:#fff;
+}
+
+
+
+
+/* Reel Preview Replacement */
+.reel-preview {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  gap: 30px;
+  flex-wrap: wrap;
+  background-color: rgba(255, 255, 255, 0.25);
+  padding: 30px;
+  border-radius: 15px;
+}
+
+.preview-text {
+  max-width: 500px;
+  text-align: left;
+}
+
+.preview-text h3 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+  color: #155e4b;
+}
+
+.preview-text p {
+  font-size: 1rem;
+  color: #2a2a2a;
+  line-height: 1.6;
+}
+
+.preview-video {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.insta-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  background-color: #155e4b;
+  color: #fff !important;
+  font-weight: bold;
+  padding: 12px 25px;
+  border-radius: 30px;
+  font-size: 1rem;
+  text-decoration: none;
+  transition: background 0.3s ease;
+  box-shadow: 0 5px 12px rgba(0, 0, 0, 0.2);
+}
+
+.insta-link:hover {
+  background-color: #338670;
+}
+
+.insta-link i {
+  font-size: 1.4rem;
+}
+
+
+/* Responsive */
+@media (max-width: 768px) {
+  .marketing-section h2 {
+    font-size: 2.2rem;
+  }
+
+  .marketing-section p {
+    font-size: 1rem;
+  }
+
+  .cta-button {
+    padding: 12px 28px;
+    font-size: 1rem;
+  }
+
+  .preview-video img {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  .reel-preview {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .preview-text {
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .marketing-section {
+    padding: 30px 0px;
+  }
+
+  .marketing-section h2 {
+    font-size: 1.9rem;
+  }
+
+  .marketing-section p {
+    font-size: 0.95rem;
+  }
+
+  .cta-button {
+    padding: 10px 22px;
+    font-size: 0.9rem;
+  }
+}
