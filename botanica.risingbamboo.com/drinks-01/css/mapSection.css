@@ -133,8 +133,8 @@
 .location-section .swiper-pagination-bullet-active {
     background: #007aff;
     opacity: 1;
-    width: 14px;
-    height: 14px;
+    width: 8px;
+    height: 8px;
     border: 1px solid #fff;
 }
 

@@ -207,43 +207,22 @@
       "icon": "botanica.risingbamboo.com/drinks-01/assets/CategoryImage/Soda-Flav.png",
       "items": [
         {
-          "name": "Mango GHAAT "
+          "name": "Mango (Ghatt)"
         },
         {
-          "name": "Strawberry GHAAT"
-        },
-        {
-          "name": "Litchi"
-        },
-        {
-          "name": "Sprite"
-        },
-        {
-          "name": "Lemon"
+          "name": "Strawberry (Ghatt)"
         },
         {
           "name": "Cola"
         },
-        {
+         {
           "name": "Jeera Masala"
-        },
-        {
-          "name": "Guava"
-        },
-        {
-          "name": "Dadam"
         },
         {
           "name": "Kiwi"
         },
         {
-          "name": "vimto"
-        },
-        {
           "name": "Kala khatta"
-        },
-        {
-          "name": "Sosyo"
         },
         {
           "name": "Blue Berry"
