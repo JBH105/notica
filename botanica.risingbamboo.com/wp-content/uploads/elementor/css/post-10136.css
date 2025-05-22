@@ -316,14 +316,14 @@ body.rtl .elementor-10136 .elementor-element.elementor-element-617e9644 .rbb-ele
 
 .elementor-10136 .elementor-element.elementor-element-78e80cd5:not(.elementor-motion-effects-element-type-background),
 .elementor-10136 .elementor-element.elementor-element-78e80cd5>.elementor-motion-effects-container>.elementor-motion-effects-layer {
-    background-image: url("../../2024/10/bg-testimonial-1.png");
+    /* background-image: url("../../2024/10/bg-testimonial-1.png"); */
     background-position: 8% 105px;
     background-repeat: no-repeat;
     background-size: 280px auto;
 }
 
 .elementor-10136 .elementor-element.elementor-element-78e80cd5>.elementor-background-overlay {
-    background-image: url("../../2024/10/bg-testimonial-2.png");
+    /* background-image: url("../../2024/10/bg-testimonial-2.png"); */
     background-position: 93% 45px;
     background-repeat: no-repeat;
     background-size: 357px auto;
