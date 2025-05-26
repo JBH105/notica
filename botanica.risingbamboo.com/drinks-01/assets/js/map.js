@@ -78,10 +78,34 @@ const locations = [
         iframeSrc: "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3717.3142931071884!2d77.51408007526406!3d21.298593980419028!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjHCsDE3JzU0LjkiTiA3N8KwMzAnNjAuMCJF!5e0!3m2!1sen!2sin!4v1748079894688!5m2!1sen!2sin"
       },
         {
-        id: "loc-13",
-        title: "Pathan Chowk, Amravati,",
+        id: "loc-14",
+        title: "Pathan Chowk, Amravati",
         owner: "Aaditya",
         iframeSrc: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3726.4156113427657!2d77.7402668!3d20.9358184!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd6bd00786d7125%3A0x1cb9e9595eefcdd8!2sNotica%20Soda%20Shake!5e0!3m2!1sen!2sin!4v1748089696945!5m2!1sen!2sin"
+      },
+      {
+        id: "loc-15",
+        title: "Railway Station Road New Town, Badnera, Amravati",
+        owner: "Parthamesh",
+        iframeSrc: "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3728.4067186916936!2d77.72760247525183!3d20.855650680750806!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjDCsDUxJzIwLjMiTiA3N8KwNDMnNDguNiJF!5e0!3m2!1sen!2sin!4v1748234063497!5m2!1sen!2sin"
+      },
+      {
+        id: "loc-16",
+        title: "Dattapur Dhamangaon Road Dhamangaon",
+        owner: "Amolbhai",
+        iframeSrc: "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3730.096555732247!2d78.13515447525!3d20.787381280802276!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjDCsDQ3JzE0LjYiTiA3OMKwMDgnMTUuOCJF!5e0!3m2!1sen!2sin!4v1748234258803!5m2!1sen!2sin"
+      },
+      {
+        id: "loc-17",
+        title: "Ambedkar Chowk Amravati Road, Ner",
+        owner: "Sureshbhai",
+        iframeSrc: "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3737.348911344561!2d77.86553337524204!3d20.49191828102643!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjDCsDI5JzMwLjkiTiA3N8KwNTInMDUuMiJF!5e0!3m2!1sen!2sin!4v1748234866312!5m2!1sen!2sin"
+      },
+      {
+        id: "loc-18",
+        title: "Chitra Chowk Jawahar Road Amravati",
+        owner: "Savajibhai",
+        iframeSrc: "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3726.520062609058!2d77.74954087525389!3d20.931620180693535!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjDCsDU1JzUzLjgiTiA3N8KwNDUnMDcuNiJF!5e0!3m2!1sen!2sin!4v1748235087438!5m2!1sen!2sin"
       }
     ];
 
@@ -89,7 +113,7 @@ const locations = [
     locations.map(location => {
       const slide = document.createElement('div');
       slide.className = 'swiper-slide';
-      slide.id = location.id; // Assign unique ID to each slide
+      slide.id = location.id; 
       slide.innerHTML = `
         <div class="shop-map-card">
           <div class="shop-map-info">

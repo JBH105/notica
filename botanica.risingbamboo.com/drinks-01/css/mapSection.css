@@ -246,14 +246,32 @@
 
     .swiper-button-next,
      .swiper-button-prev {
-        width: 16px;
-        height: 16px;
+        width: 8px;
+        height: 8px;
     }
 
     .location-section .swiper-button-next:after,
     .location-section .swiper-button-prev:after {
         font-size: 8px;
     }
+    
+.location-section .swiper-pagination-bullet {
+    background: #999;
+    opacity: 0.7;
+    width: 6px;
+    height: 6px;
+    margin: 0 8px;
+    border: 1px solid #007aff;
+}
+
+.location-section .swiper-pagination-bullet-active {
+    background: #007aff;
+    opacity: 1;
+    width: 8px;
+    height: 8px;
+    border: 1px solid #fff;
+}
+    
 }
 
 @media (max-width: 360px) {
