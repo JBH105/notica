@@ -437,6 +437,66 @@
         }
         
       ]
+    },
+
+    {
+      "id": "service-products",
+      "title": "Service products",
+      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSifxiptx21XgZjD_ekFiI7VAfFhmiLQI_-Ow&s",
+      "items": [
+        {
+          "name": "14+2 Soda Fountain Machine",
+          "image": "botanica.risingbamboo.com/drinks-01/assets/Services/FountainMachine.jpeg"
+        },
+        {
+          "name": "Fridge vertical(300 Ltr)",
+          "image": "botanica.risingbamboo.com/drinks-01/assets/Services/fridge-Photoroom.png"
+        },
+        {
+          "name": "Interior Design ACP Sheet(400 sq.ft.)",
+          "image": "botanica.risingbamboo.com/drinks-01/assets/interior_design.jpeg"
+        },
+        {
+          "name": "5 Baby chair. 10 adult chair",
+          "image": "botanica.risingbamboo.com/drinks-01/assets/Services/chair.png"
+        },
+        {
+          "name": "Counter (Marble)6- to 8 feet x I .5 feet as per location",
+          "image": "botanica.risingbamboo.com/drinks-01/assets/Services/counter.png"
+        }
+      ]
+    },
+
+    {
+      "id": "franchise-products",
+      "title": "Franchise-kit <br/> products",
+      "icon": "https://static.vecteezy.com/system/resources/thumbnails/012/715/530/small/small-business-or-franchise-branch-expansion-strategy-of-financial-marketing-planning-for-investment-illustrator-vector.jpg",
+      "items": [
+        {
+          "name": "Led Board Included",
+          "image": "botanica.risingbamboo.com/drinks-01/assets/Franchise-Kit/LED-3.jpeg"
+        },
+        {
+          "name": "CCTV Camera Included",
+          "image": "botanica.risingbamboo.com/drinks-01/assets/Franchise-Kit/cctv.png"
+        },
+        {
+          "name": "TV Included",
+          "image": "./botanica.risingbamboo.com/drinks-01/assets/Franchise-Kit/TV-1.png"
+        },
+        {
+          "name": "500 Litre Water Tank",
+          "image": "./botanica.risingbamboo.com/drinks-01/assets/Franchise-Kit/RealTank.png"
+        },
+        {
+          "name": "Water Pump",
+          "image": "./botanica.risingbamboo.com/drinks-01/assets/Franchise-Kit/Tank1.png"
+        },
+        {
+          "name": "Juicer Mixer",
+          "image": "./botanica.risingbamboo.com/drinks-01/assets/Franchise-Kit/juicer.png"
+        }
+      ]
     }
   ]
 }

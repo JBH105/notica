@@ -117,3 +117,6 @@ const testimonials = [
       `;
       slider.appendChild(item);
     });
+
+
+

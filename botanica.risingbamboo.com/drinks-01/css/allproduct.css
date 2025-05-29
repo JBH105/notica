@@ -29,7 +29,7 @@
 
   .with-images .product-item {
       background-color: #ffffff;
-      border-radius: 10px;
+      border-radius: 10px; 
       overflow: hidden;
       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
       transition: transform 0.3s ease;
@@ -55,7 +55,7 @@
       .with-images .product-image {
           height: auto;
           aspect-ratio: 4 / 3;
-          object-fit: contain;
+          object-fit: fill;
       }
   }
 
