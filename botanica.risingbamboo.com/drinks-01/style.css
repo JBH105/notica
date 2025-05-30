@@ -1,6 +1,8 @@
 
 
-
+a a:visited{
+    color: white;
+}
 /* General container styling */
 .block_slide {
   width: 100%;
