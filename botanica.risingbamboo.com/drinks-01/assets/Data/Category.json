@@ -442,7 +442,7 @@
     {
       "id": "service-products",
       "title": "Service products",
-      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSifxiptx21XgZjD_ekFiI7VAfFhmiLQI_-Ow&s",
+      "icon": "botanica.risingbamboo.com/drinks-01/assets/CategoryImage/service.png",
       "items": [
         {
           "name": "14+2 Soda Fountain Machine",
@@ -470,7 +470,7 @@
     {
       "id": "franchise-products",
       "title": "Franchise-kit <br/> products",
-      "icon": "https://static.vecteezy.com/system/resources/thumbnails/012/715/530/small/small-business-or-franchise-branch-expansion-strategy-of-financial-marketing-planning-for-investment-illustrator-vector.jpg",
+      "icon": "botanica.risingbamboo.com/drinks-01/assets/CategoryImage/franchise-kit.png",
       "items": [
         {
           "name": "Led Board Included",
