@@ -3,7 +3,6 @@
 a a:visited{
     color: white;
 }
-/* General container styling */
 .block_slide {
   width: 100%;
   overflow: hidden;
@@ -179,10 +178,4 @@ a a:visited{
     /* Further reduced vertical padding for mobile */
   }
 }
-
-
-/* about css start */
-
-
-/* ===================== ROI Projection section star here ================*/
 

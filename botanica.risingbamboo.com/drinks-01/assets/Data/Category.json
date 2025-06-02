@@ -3,7 +3,7 @@
     {
       "id": "ice-Mojhito",
       "title": "Ice & Mojhito",
-      "icon": "botanica.risingbamboo.com/drinks-01/assets/CategoryImage/Ice-Mojhito.png",
+      "icon": "botanica.risingbamboo.com/drinks-01/assets/CategoryImage/Ice-Mojhito.webp",
       "items": [
         {
           "name": "Blue Curacao"
@@ -118,7 +118,7 @@
     {
       "id": "ice",
       "title": "Ice",
-      "icon": "botanica.risingbamboo.com/drinks-01/assets/CategoryImage/Ice.png",
+      "icon": "botanica.risingbamboo.com/drinks-01/assets/CategoryImage/Ice.webp",
       "items": [
         {
           "name": "verry Berry Ice"
@@ -152,7 +152,7 @@
     {
       "id": "milk",
       "title": "Milk",
-      "icon": "botanica.risingbamboo.com/drinks-01/assets/CategoryImage/Milk.png",
+      "icon": "botanica.risingbamboo.com/drinks-01/assets/CategoryImage/Milk.webp",
       "items": [
         {
           "name": "Rose Milk & water"
@@ -204,7 +204,7 @@
     {
       "id": "soda",
       "title": "Soda Flav",
-      "icon": "botanica.risingbamboo.com/drinks-01/assets/CategoryImage/Soda-Flav.png",
+      "icon": "botanica.risingbamboo.com/drinks-01/assets/CategoryImage/Soda-Flav.webp",
       "items": [
         {
           "name": "Mango (Ghatt)"
@@ -260,151 +260,151 @@
     {
       "id": "other-products",
       "title": "Other products",
-      "icon": "botanica.risingbamboo.com/drinks-01/assets/CategoryImage/Other-Product.png",
+      "icon": "botanica.risingbamboo.com/drinks-01/assets/CategoryImage/Other-Product.webp",
       "items": [
         {
           "name": "30 - 60 ML",
-          "image": "botanica.risingbamboo.com/drinks-01/assets/product/30-60.png"
+          "image": "botanica.risingbamboo.com/drinks-01/assets/product/30-60.webp"
         },
         {
           "name": "Lemon Basket",
-          "image": "botanica.risingbamboo.com/drinks-01/assets/product/fruitBasket.png"
+          "image": "botanica.risingbamboo.com/drinks-01/assets/product/fruitBasket.webp"
         },
         {
           "name": "Knife",
-          "image": "botanica.risingbamboo.com/drinks-01/assets/product/Knife.jpg"
+          "image": "botanica.risingbamboo.com/drinks-01/assets/product/Knife.webp"
         },
         {
           "name": "Glass ML",
-          "image": "botanica.risingbamboo.com/drinks-01/assets/product/ml-glass.png"
+          "image": "botanica.risingbamboo.com/drinks-01/assets/product/ml-glass.webp"
         },
         {
           "name": "20 Ltr Bucket",
-          "image": "botanica.risingbamboo.com/drinks-01/assets/product/Bucket.png"
+          "image": "botanica.risingbamboo.com/drinks-01/assets/product/Bucket.webp"
         },
         {
           "name": "1 Ltr Jug 500 ML JUG",
-          "image": "botanica.risingbamboo.com/drinks-01/assets/product/Jug.png"
+          "image": "botanica.risingbamboo.com/drinks-01/assets/product/Jug.webp"
         },
         {
           "name": "Double Net Water Strainer",
-          "image": "botanica.risingbamboo.com/drinks-01/assets/product/waterStrainer.png"
+          "image": "botanica.risingbamboo.com/drinks-01/assets/product/waterStrainer.webp"
         },
         {
           "name": "Cash Box",
-          "image": "botanica.risingbamboo.com/drinks-01/assets/product/cashBox.png"
+          "image": "botanica.risingbamboo.com/drinks-01/assets/product/cashBox.webp"
         },
         {
           "name": "Drawer",
-          "image": "botanica.risingbamboo.com/drinks-01/assets/product/Drawer.png"
+          "image": "botanica.risingbamboo.com/drinks-01/assets/product/Drawer.webp"
         },
         {
           "name": "Morter & Pastel Wooden",
-          "image": "botanica.risingbamboo.com/drinks-01/assets/product/pastel.png"
+          "image": "botanica.risingbamboo.com/drinks-01/assets/product/pastel.webp"
         },
         {
           "name": "Steel Soup Ladel",
-          "image": "botanica.risingbamboo.com/drinks-01/assets/product/soupladel.png"
+          "image": "botanica.risingbamboo.com/drinks-01/assets/product/soupladel.webp"
         },
         {
           "name": "Dustbin 100 Ltr",
-          "image": "botanica.risingbamboo.com/drinks-01/assets/product/dustbin.png"
+          "image": "botanica.risingbamboo.com/drinks-01/assets/product/dustbin.webp"
         },
         {
           "name": "Cocktail Glass </br> 6 Pieces",
-          "image": "botanica.risingbamboo.com/drinks-01/assets/product/cockTailnew.png"
+          "image": "botanica.risingbamboo.com/drinks-01/assets/product/cockTailnew.webp"
         },
         {
           "name": "Faluda Glass </br> 6 Pieces",
-          "image": "botanica.risingbamboo.com/drinks-01/assets/product/faludaGlass.png"
+          "image": "botanica.risingbamboo.com/drinks-01/assets/product/faludaGlass.webp"
         },
         {
           "name": "Ice Glass </br> 12 Pieces",
-          "image": "botanica.risingbamboo.com/drinks-01/assets/product/iceGlass.png"
+          "image": "botanica.risingbamboo.com/drinks-01/assets/product/iceGlass.webp"
         },
         {
           "name": "Milk Shake Glass </br> 12 Pieces",
-          "image": "botanica.risingbamboo.com/drinks-01/assets/product/Milk.png"
+          "image": "botanica.risingbamboo.com/drinks-01/assets/product/Milk.webp"
         },
         {
           "name": "Fuljar glass </br> 12 Pieces",
-          "image": "botanica.risingbamboo.com/drinks-01/assets/product/fuljhar.png"
+          "image": "botanica.risingbamboo.com/drinks-01/assets/product/fuljhar.webp"
         },
         {
           "name": "Fuljar Small glass </br> 6 Pieces",
-          "image": "botanica.risingbamboo.com/drinks-01/assets/product/smallFuljhar.png"
+          "image": "botanica.risingbamboo.com/drinks-01/assets/product/smallFuljhar.webp"
         },
         {
           "name": "Jamun Shots Glass </br> 6 Pieces",
-          "image": "botanica.risingbamboo.com/drinks-01/assets/product/jamunShots.png"
+          "image": "botanica.risingbamboo.com/drinks-01/assets/product/jamunShots.webp"
         },
         {
           "name": "Ice Box",
-          "image": "botanica.risingbamboo.com/drinks-01/assets/product/iceBox.png"
+          "image": "botanica.risingbamboo.com/drinks-01/assets/product/iceBox.webp"
         },
         {
           "name": "Ice Crusher",
-          "image": "botanica.risingbamboo.com/drinks-01/assets/product/iceCrusher.png"
+          "image": "botanica.risingbamboo.com/drinks-01/assets/product/iceCrusher.webp"
         },
         {
           "name": "Cap Bottle </br> 2 pieces",
-          "image": "botanica.risingbamboo.com/drinks-01/assets/product/capBottle.png"
+          "image": "botanica.risingbamboo.com/drinks-01/assets/product/capBottle.webp"
         },
         {
           "name": "Jar </br> 6 pieces",
-          "image": "botanica.risingbamboo.com/drinks-01/assets/product/BottleJar.png"
+          "image": "botanica.risingbamboo.com/drinks-01/assets/product/BottleJar.webp"
         },
         {
           "name": "Big Plastcics Funnels </br> 6 pieces",
-          "image": "botanica.risingbamboo.com/drinks-01/assets/product/funnel.png"
+          "image": "botanica.risingbamboo.com/drinks-01/assets/product/funnel.webp"
         },
         {
           "name": "Spoon </br> 6 Pieces",
-          "image": "botanica.risingbamboo.com/drinks-01/assets/product/spoon.png"
+          "image": "botanica.risingbamboo.com/drinks-01/assets/product/spoon.webp"
         },
         {
           "name": "Glass Trey </br> 2 Pieces",
-          "image": "botanica.risingbamboo.com/drinks-01/assets/product/tray.png"
+          "image": "botanica.risingbamboo.com/drinks-01/assets/product/tray.webp"
         },
         {
           "name": "Water Jar </br> 2 Pieces",
-          "image": "botanica.risingbamboo.com/drinks-01/assets/product/water.png"
+          "image": "botanica.risingbamboo.com/drinks-01/assets/product/water.webp"
         },
         {
           "name": "Co2 Gas Bottels 30kg </br> 2 Pieces",
-          "image": "botanica.risingbamboo.com/drinks-01/assets/product/carbon.png"
+          "image": "botanica.risingbamboo.com/drinks-01/assets/product/carbon.webp"
         },
         {
           "name": "3 Watt 2:PINK 2:BLUE 2:GREEN </br> 6 Pieces",
-          "image": "botanica.risingbamboo.com/drinks-01/assets/product/3-watt.png"
+          "image": "botanica.risingbamboo.com/drinks-01/assets/product/3-watt.webp"
         },
         {
           "name": "Ceiling Lights </br>6 Pieces",
-          "image": "botanica.risingbamboo.com/drinks-01/assets/product/ceilingLight.png"
+          "image": "botanica.risingbamboo.com/drinks-01/assets/product/ceilingLight.webp"
         },
         {
           "name": "Plier",
-          "image": "botanica.risingbamboo.com/drinks-01/assets/product/Plier.png"
+          "image": "botanica.risingbamboo.com/drinks-01/assets/product/Plier.webp"
         },
         {
           "name": "Adjustable Spammers",
-          "image": "botanica.risingbamboo.com/drinks-01/assets/product/spammers.png"
+          "image": "botanica.risingbamboo.com/drinks-01/assets/product/spammers.webp"
         },
         {
           "name": "Testers",
-          "image": "botanica.risingbamboo.com/drinks-01/assets/product/tester.png"
+          "image": "botanica.risingbamboo.com/drinks-01/assets/product/tester.webp"
         },
         {
           "name": "Screw Driver",
-          "image": "botanica.risingbamboo.com/drinks-01/assets/product/screwDriver.png"
+          "image": "botanica.risingbamboo.com/drinks-01/assets/product/screwDriver.webp"
         },
         {
           "name": "Tep Rol",
-          "image": "botanica.risingbamboo.com/drinks-01/assets/product/tapRoll.png"
+          "image": "botanica.risingbamboo.com/drinks-01/assets/product/tapRoll.webp"
         },
         {
           "name": "Syrup Tanks </br> 14 Pieces",
-          "image": "botanica.risingbamboo.com/drinks-01/assets/product/syrupTank.png"
+          "image": "botanica.risingbamboo.com/drinks-01/assets/product/syrupTank.webp"
         },
         {
           "name": "Co2 Regulator",
@@ -413,15 +413,15 @@
         },
         {
           "name": "O Rings </br> 30 Pieces",
-          "image": "botanica.risingbamboo.com/drinks-01/assets/product/rubber-rings.jpg"
+          "image": "botanica.risingbamboo.com/drinks-01/assets/product/rubber-rings.webp"
         },
         {
           "name": "Connectors </br> 2 set",
-          "image": "botanica.risingbamboo.com/drinks-01/assets/product/connectors.png"
+          "image": "botanica.risingbamboo.com/drinks-01/assets/product/connectors.webp"
         },
         {
           "name": "Clamp </br> 5 Pieces",
-          "image":"botanica.risingbamboo.com/drinks-01/assets/product/clampsNew.png"
+          "image":"botanica.risingbamboo.com/drinks-01/assets/product/clampsNew.webp"
         },
         {
            "name": "PCB",
@@ -429,11 +429,11 @@
         },
         {
           "name": "Co2 Regulator Ring </br> 2 Pieces",
-          "image":"botanica.risingbamboo.com/drinks-01/assets/product/regulatorRing.jpeg"
+          "image":"botanica.risingbamboo.com/drinks-01/assets/product/regulatorRing.webp"
         },
         {
           "name": "Sensor",
-          "image":"botanica.risingbamboo.com/drinks-01/assets/product/sensor.png"
+          "image":"botanica.risingbamboo.com/drinks-01/assets/product/sensor.webp"
         }
         
       ]
@@ -442,31 +442,31 @@
     {
       "id": "service-products",
       "title": "Service products",
-      "icon": "botanica.risingbamboo.com/drinks-01/assets/CategoryImage/service.png",
+      "icon": "botanica.risingbamboo.com/drinks-01/assets/CategoryImage/service.webp",
       "items": [
         {
           "name": "14+2 Soda Fountain Machine",
-          "image": "botanica.risingbamboo.com/drinks-01/assets/Services/FountainMachine.jpeg"
+          "image": "botanica.risingbamboo.com/drinks-01/assets/Services/FountainMachine.webp"
         },
         {
           "name": "Fridge vertical(300 Ltr)",
-          "image": "botanica.risingbamboo.com/drinks-01/assets/Services/fridge-Photoroom.png"
+          "image": "botanica.risingbamboo.com/drinks-01/assets/Services/fridge-Photoroom.webp"
         },
         {
           "name": "Interior Design ACP Sheet(400 sq.ft.)",
-          "image": "botanica.risingbamboo.com/drinks-01/assets/interior_design.jpeg"
+          "image": "botanica.risingbamboo.com/drinks-01/assets/interior_design.webp"
         },
         {
           "name": "5 Baby chair. 10 adult chair",
-          "image": "botanica.risingbamboo.com/drinks-01/assets/Services/chair.png"
+          "image": "botanica.risingbamboo.com/drinks-01/assets/Services/chair.webp"
         },
         {
           "name": "Counter (Marble)6- to 8 feet x I .5 feet as per location",
-          "image": "botanica.risingbamboo.com/drinks-01/assets/Services/counter.png"
+          "image": "botanica.risingbamboo.com/drinks-01/assets/Services/counter.webp"
         },
         {
           "name": "Eco vinyl stickers",
-          "image": "botanica.risingbamboo.com/drinks-01/assets/Services/stickers.png"
+          "image": "botanica.risingbamboo.com/drinks-01/assets/Services/stickers.webp"
         }
       ]
     },
@@ -474,31 +474,31 @@
     {
       "id": "franchise-products",
       "title": "Franchise-kit <br/> products",
-      "icon": "botanica.risingbamboo.com/drinks-01/assets/CategoryImage/franchise-kit.png",
+      "icon": "botanica.risingbamboo.com/drinks-01/assets/CategoryImage/franchise-kit.webp",
       "items": [
         {
           "name": "Led Board Included",
-          "image": "botanica.risingbamboo.com/drinks-01/assets/Franchise-Kit/LED-3.jpeg"
+          "image": "botanica.risingbamboo.com/drinks-01/assets/Franchise-Kit/LED-3.webp"
         },
         {
           "name": "CCTV Camera Included",
-          "image": "botanica.risingbamboo.com/drinks-01/assets/Franchise-Kit/cctv.png"
+          "image": "botanica.risingbamboo.com/drinks-01/assets/Franchise-Kit/cctv.webp"
         },
         {
           "name": "TV Included",
-          "image": "./botanica.risingbamboo.com/drinks-01/assets/Franchise-Kit/TV-1.png"
+          "image": "./botanica.risingbamboo.com/drinks-01/assets/Franchise-Kit/TV-1.webp"
         },
         {
           "name": "500 Litre Water Tank",
-          "image": "./botanica.risingbamboo.com/drinks-01/assets/Franchise-Kit/RealTank.png"
+          "image": "./botanica.risingbamboo.com/drinks-01/assets/Franchise-Kit/RealTank.webp"
         },
         {
           "name": "Water Pump",
-          "image": "./botanica.risingbamboo.com/drinks-01/assets/Franchise-Kit/Tank1.png"
+          "image": "./botanica.risingbamboo.com/drinks-01/assets/Franchise-Kit/Tank1.webp"
         },
         {
           "name": "Juicer Mixer",
-          "image": "./botanica.risingbamboo.com/drinks-01/assets/Franchise-Kit/juicer.png"
+          "image": "./botanica.risingbamboo.com/drinks-01/assets/Franchise-Kit/juicer.webp"
         }
       ]
     }
