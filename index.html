@@ -3838,8 +3838,8 @@
 								<div class="container">
 									<h2>Ready to Join the Notica Family?</h2>
 									<p>Take the first step towards owning your successful soda franchise today.</p>
-									<div class="button-group whatsappLink">
-										<a href="#" class="button">Request Information</a>
+									<div class="button-group">
+										<button class="button" id="downloadpdf">Download PDF</button>
 									</div>
 								</div>
 							</section>
@@ -5586,6 +5586,24 @@
 			<i class="fab fa-whatsapp"></i>
 		</a>
 	</div>
+
+	<!-- download pdf script -->
+
+
+	<!-- <script>
+		document.getElementById("downloadpdf").addEventListener("click", (e) => {
+			e.preventDefault(); // Prevent the default anchor behavior
+			const link = document.createElement('a');
+			link.href = 'NoticaPDF.pdf'; // Ensure this path is correct relative to your HTML file
+			link.download = 'NoticaPDF.pdf';
+			document.body.appendChild(link); // Optional but safe
+			link.click();
+			document.body.removeChild(link); // Clean up
+		});
+	</script> -->
+
+	<script src="./botanica.risingbamboo.com/drinks-01/assets/js/noticaPdf.js"></script>
+
 	<script type='text/javascript'>
 		const lazyloadRunObserver = () => {
 			const lazyloadBackgrounds = document.querySelectorAll(`.e-con.e-parent:not(.e-lazyloaded)`);
