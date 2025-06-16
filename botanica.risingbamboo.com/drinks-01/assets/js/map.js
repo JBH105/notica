@@ -117,7 +117,7 @@ const locations = [
     id: "loc-20",
     title: "Ashti Road Morshi",
     owner: "Sachinbhai",
-    iframeSrc: "https://www.google.com/maps/place/21%C2%B019'33.8%22N+78%C2%B000'22.3%22E/@21.3260466,78.0036074,17z/data=!3m1!4b1!4m4!3m3!8m2!3d21.3260466!4d78.0061823?hl=en&entry=ttu&g_ep=EgoyMDI1MDYxMS4wIKXMDSoASAFQAw%3D%3D"
+    iframeSrc: "https://www.google.com/maps?q=21.3260466,78.0061823&z=17&hl=en"
   },
   {
     id: "loc-21",
