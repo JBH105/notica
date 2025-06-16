@@ -111,19 +111,19 @@ const locations = [
     id: "loc-19",
     title: "Tukum Road Near Gurudwara Chandrapur",
     owner: "Narendra",
-    iframeSrc: "https://www.google.com/maps/place/19%C2%B058'29.6%22N+79%C2%B018'18.0%22E/@19.9749007,79.3024301,17z/data=!3m1!4b1!4m4!3m3!8m2!3d19.9749007!4d79.305005?hl=en&entry=ttu&g_ep=EgoyMDI1MDYxMS4wIKXMDSoASAFQAw%3D%3D"
+    iframeSrc: "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3749.8002578923415!2d79.30243007522834!3d19.97490068142369!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTnCsDU4JzI5LjYiTiA3OcKwMTgnMTguMCJF!5e0!3m2!1sen!2sin!4v1750053909270!5m2!1sen!2sin"
   },
   {
     id: "loc-20",
     title: "Ashti Road Morshi",
     owner: "Sachinbhai",
-    iframeSrc: "https://www.google.com/maps?q=21.3260466,78.0061823&z=17&hl=en"
+    iframeSrc: "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3716.6194919925324!2d78.00360737526483!3d21.326046580398668!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjHCsDE5JzMzLjgiTiA3OMKwMDAnMjIuMyJF!5e0!3m2!1sen!2sin!4v1750053942909!5m2!1sen!2sin"
   },
   {
     id: "loc-21",
     title: "LIFESTYLE HOME S. D P Road To Akoli Road Amravati",
     owner: "Yashbhai",
-    iframeSrc: "https://www.google.com/maps/place/20%C2%B054'36.0%22N+77%C2%B044'18.5%22E/@20.9100036,77.735889,17z/data=!3m1!4b1!4m4!3m3!8m2!3d20.9100036!4d77.7384639?hl=en&entry=ttu&g_ep=EgoyMDI1MDYxMS4wIKXMDSoASAFQAw%3D%3D"
+    iframeSrc: "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3727.0575646633392!2d77.73588897525336!3d20.910003580709844!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjDCsDU0JzM2LjAiTiA3N8KwNDQnMTguNSJF!5e0!3m2!1sen!2sin!4v1750053862296!5m2!1sen!2sin"
   }
 ];
 
