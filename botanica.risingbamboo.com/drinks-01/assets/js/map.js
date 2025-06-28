@@ -124,7 +124,19 @@ const locations = [
     title: "LIFESTYLE HOME S. D P Road To Akoli Road Amravati",
     owner: "Yashbhai",
     iframeSrc: "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3727.0575646633392!2d77.73588897525336!3d20.910003580709844!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjDCsDU0JzM2LjAiTiA3N8KwNDQnMTguNSJF!5e0!3m2!1sen!2sin!4v1750053862296!5m2!1sen!2sin"
-  }
+  },
+  {
+    id: "loc-22",
+    title: "Beside haldiram , opp MDR Mall , Gajanan sqr Chandrapur",
+    owner: "Adarshbhai",
+    iframeSrc: "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3749.756858983377!2d79.282601!3d19.976725!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTnCsDU4JzM2LjIiTiA3OcKwMTYnNTcuNCJF!5e0!3m2!1sen!2sin!4v1751103093013!5m2!1sen!2sin"
+  },
+  {
+    id: "loc-23",
+    title: "RVPV+572, Railway Station Rd, Laxminarayanpura, Jalna",
+    owner: "Nileshbhai",
+    iframeSrc: "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3753.1067247202573!2d75.89047687522468!3d19.835436681531895!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTnCsDUwJzA3LjYiTiA3NcKwNTMnMzUuMCJF!5e0!3m2!1sen!2sin!4v1751102893293!5m2!1sen!2sin"
+  },
 ];
 
 const swiperWrapper = document.getElementById('swiper-wrapper');
