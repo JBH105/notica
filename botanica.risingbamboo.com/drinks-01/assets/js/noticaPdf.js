@@ -1,7 +1,7 @@
 document.getElementById("downloadpdf").addEventListener("click", () => {
     const link = document.createElement('a');
-    link.href = 'NoticaPDF.pdf'; 
-    link.download = 'NoticaPDF.pdf'; 
+    link.href = 'newNotica.pdf'; 
+    link.download = 'newNotica.pdf'; 
     link.click();
   });
   
